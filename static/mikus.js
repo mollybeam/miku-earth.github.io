@@ -253,7 +253,8 @@ const MIKUS = [
     "continent": "asia",
     "loc": [
       "palestine"
-    ]
+    ],
+    "coords": [35.25, 32]
   },
   {
     "id": "760046625671479296",
@@ -279,7 +280,8 @@ const MIKUS = [
     "continent": "americas",
     "loc": [
       "appalachia"
-    ]
+    ],
+    "coords": [-83.49, 35.56]
   },
   {
     "id": "760052803693592576",
@@ -293,7 +295,8 @@ const MIKUS = [
     "loc": [
       "japan",
       "it's unclear what period this is; i would appreciate anybody familiar who can help me identify it!"
-    ]
+    ],
+    "coords": [138, 36]
   },
   {
     "id": "760052693419032576",
@@ -306,7 +309,8 @@ const MIKUS = [
     "continent": "americas",
     "loc": [
       "puerto rico"
-    ]
+    ],
+    "coords": [-66.5, 18.2]
   },
   {
     "id": "760049349811191808",
@@ -334,7 +338,8 @@ const MIKUS = [
       "usa",
       "massachusetts",
       "boston"
-    ]
+    ],
+    "coords": [-71.057778, 42.360278]
   },
   {
     "id": "760052079990620160",
@@ -349,6 +354,73 @@ const MIKUS = [
       "usa",
       "louisiana",
       "new orleans"
-    ]
+    ],
+    "coords": [-90.078333, 29.976111]
+  },
+  {
+    "id": "760078289519902720",
+    "post_url": "https://tmblr.co/Z3fYVOgCLorWKW00",
+    "meta": false,
+    "collated_at": "2024-08-28 17:45:43",
+    "img_min_url": "https://64.media.tumblr.com/6a3b8d8dadc5f08311c2155d34fb476e/0fcc99b858f959fa-27/s75x75_c1/a75996dfc90156432904212e56d3454e29d79995.png",
+    "img_max_url": "https://64.media.tumblr.com/6a3b8d8dadc5f08311c2155d34fb476e/0fcc99b858f959fa-27/s2048x3072/6c1b158376bf3b925ce4d41ea10d3924b092b120.png",
+    "artist": "orphetoon",
+    "artist_url": "https://tumblr.com/orphetoon",
+    "date": "2024-08-28 13:42:24",
+    "continent": "americas",
+    "loc": [
+      "brazil"
+    ],
+    "coords": [-52, 10]
+  },
+  {
+    "id": "760080475846066176",
+    "post_url": "https://tmblr.co/Z3fYVOgCMIfhWy00",
+    "meta": false,
+    "collated_at": "2024-08-28 18:20:28",
+    "img_min_url": "https://64.media.tumblr.com/b65fa638608482f6e0019ff6e95dd39b/523477b547b3cbfc-cd/s75x75_c1/3734ab037846bf3ecdac804c72efef2794d968b7.png",
+    "img_max_url": "https://64.media.tumblr.com/b65fa638608482f6e0019ff6e95dd39b/523477b547b3cbfc-cd/s2048x3072/71424239c5f66cde4da0033594f42aafb9677860.png",
+    "artist": "j11nko",
+    "artist_url": "https://tumblr.com/j11nko",
+    "date": "2024-08-28 06:24:53",
+    "continent": "europe",
+    "loc": [
+      "norway"
+    ],
+    "coords": [8, 61]
+  },
+  {
+    "id": "760080497112236032",
+    "post_url": "https://tmblr.co/Z3fYVOgCMIzV4y00",
+    "meta": false,
+    "collated_at": "2024-08-28 18:20:48",
+    "img_min_url": "https://64.media.tumblr.com/537cb57bc3a5fb954c13ab8c5d10a78b/6d1dbc2a70a8ff2f-51/s75x75_c1/b3ec7c212fac66b80655ba96794011da57a296ea.png",
+    "img_max_url": "https://64.media.tumblr.com/537cb57bc3a5fb954c13ab8c5d10a78b/6d1dbc2a70a8ff2f-51/s2048x3072/c0388597b4304d257779332855e35dd11390f833.png",
+    "artist": "bunberryart",
+    "artist_url": "https://tumblr.com/bunberryart",
+    "date": "2024-08-27 10:57:45",
+    "continent": "europe",
+    "loc": [
+      "portugal"
+    ],
+    "coords": [-8, 39]
+  },
+  {
+    "id": "760080559850618880",
+    "post_url": "https://tmblr.co/Z3fYVOgCMJtwau00",
+    "meta": false,
+    "collated_at": "2024-08-28 18:21:48",
+    "img_min_url": "https://64.media.tumblr.com/602a76734b6b0201882905877d1a01c9/80d7b24eed6a92a4-c3/s75x75_c1/12255d8bbcd163044a8a7c267f7dedf245e229b7.png",
+    "img_max_url": "https://64.media.tumblr.com/602a76734b6b0201882905877d1a01c9/80d7b24eed6a92a4-c3/s2048x3072/ba2cab06b40fc26500eff5872a43f7d2c9b7e964.png",
+    "artist": "mairodia",
+    "artist_url": "https://tumblr.com/mairodia",
+    "date": "2024-08-28 17:30:29",
+    "continent": "americas",
+    "loc": [
+      "usa",
+      "california",
+      "long beach"
+    ],
+    "coords": [-118.195556, 33.768333]
   }
 ]

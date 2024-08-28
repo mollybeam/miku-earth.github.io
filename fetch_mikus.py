@@ -1,5 +1,6 @@
 # Fetches static/mikus.json from tumblr.
 
+from datetime import datetime
 import json
 from pathlib import Path
 
@@ -12,30 +13,43 @@ MIKUS = Path('static/mikus.js')
 JS_HEADER = 'const MIKUS = '
 
 MIKUS_SEEN = dict()
+
+fetch_after = 0
 if MIKUS.is_file():
     text = MIKUS.read_text().removeprefix(JS_HEADER)
     mikus = json.loads(text)
     MIKUS_SEEN = {miku['id']: miku for miku in mikus}
+    N_ALREADY = len(mikus)
 
-    # TODO: find the date ID so we don't spam tumblr
-    # and can continually fetch!
+    final_dt = datetime.fromisoformat(mikus[-1]['date'])
+    fetch_after = int(final_dt.timestamp())
+    print(fetch_after)
 
+# exit()
 
 client = Client.from_keys('.keys', '.cache')
-posts = client.get_posts_with_cache('miku-earth')
+posts = client.get_posts_with_cache('miku-earth', after=fetch_after)
 
 def dig(obj: dict):
     for k, v in obj.items():
         print(f'{k:30} {type(v).__name__} {v!r}')
 
-mikus = []
 for post in posts:
-    miku = {}
     post_id = post['id_string']
     miku = MIKUS_SEEN.get(post_id, {})
+    if miku:
+        continue
 
     tags: list = post['tags']
-    if 'meta' in tags:
+
+    miku.update({
+        'id': post_id,
+        'post_url': post['short_url'],
+        'meta': 'meta' in tags,
+        'collated_at': str(Post.get_date(post)),
+    })
+    mikus.append(miku)
+    if miku['meta']:
         continue
 
     source = 'tumblr'
@@ -55,23 +69,21 @@ for post in posts:
     dt = Post.get_date(client.get_root_post(post))
     # HACK: this ignores twitter because. not gonna go there tbh.
     srcset = Post.get_first_image(post)
-    post_url = post['short_url']
 
     miku.update({
-        'id': post_id,
         'img_min_url': srcset.get(75),
         'img_max_url': srcset.get('max'),
         'artist': artist,
         'artist_url': artist_url,
         'date': str(dt),
-        'post_url': post_url,
         'continent': continent,
         'loc': loc,
     })
-    mikus.append(miku)
+    # mikus.append(miku)
 
-    print(f'{artist:20} {post_url} {dt} {continent:10} {loc}')
+    print(f'{artist:20} {dt} {continent:10} {loc}')
 
-print(mikus)
-mikus.sort(key=lambda x: x['date'])
+N_NEW = len(mikus) - N_ALREADY
+print(f'{N_ALREADY} + {N_NEW} new = {len(mikus)} total')
+mikus.sort(key=lambda x: x.get('collated_at', ''))
 MIKUS.write_text(JS_HEADER + json.dumps(mikus, indent=2))

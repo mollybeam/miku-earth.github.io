@@ -56,8 +56,8 @@ h1 {
   cursor: pointer;
 }
 
-.miku .preview img {
-  width: 75px !important;
+.miku img {
+  width: 30px !important;
 }
 
 .miku article {

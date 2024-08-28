@@ -31,7 +31,6 @@ map.on('load', () => {
     MIKUS.forEach(miku => {
         if (!miku.coords) return;
 
-
         // create a DOM element for the marker
         const el = document.createElement('a');
         el.className = 'miku';
