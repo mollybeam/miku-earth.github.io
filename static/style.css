@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+html,
+p {
+  font-family: "Lora", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+}
+
 .content {
   height: 100%;
   flex-direction: column;
@@ -6,6 +14,13 @@
 .content header {
   height: 20vh;
   overflow: scroll;
+}
+
+h1 {
+  font-family: "Lora", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  color: black;
 }
 
 #map {
