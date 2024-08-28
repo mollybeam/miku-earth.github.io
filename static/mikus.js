@@ -40,8 +40,8 @@ const MIKUS = [
       "igbo",
       5
     ],
-    "img_min_url": "https://64.media.tumblr.com/d66f6635c8c2e133f27e83204772d1c3/c1a7a9ac598a4cbf-13/s75x75_c1/91f10fb5e056cb5dc1bb3d067ec9c2927c8010d5.png",
-    "img_max_url": "https://64.media.tumblr.com/d66f6635c8c2e133f27e83204772d1c3/c1a7a9ac598a4cbf-13/s2048x3072/538f10e66760f543e0ec799bb26c7c548c9a0251.png"
+    "img_min_url": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s75x75_c1/366723331496bebccbd328d55e9eeeea9edf2877.png",
+    "img_max_url": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s2048x3072/2750fe4b7828cd535dd4b0ec6f7e7cb1e20a4604.png"
   },
   {
     "id": "760065277381738496",
