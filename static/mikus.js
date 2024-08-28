@@ -240,7 +240,8 @@ const MIKUS = [
     "loc": [
       "australia",
       "aboriginal"
-    ]
+    ],
+    "coords": [131, -25]
   },
   {
     "id": "760052012489605120",
@@ -254,7 +255,10 @@ const MIKUS = [
     "loc": [
       "palestine"
     ],
-    "coords": [35.25, 32]
+    "coords": [
+      35.25,
+      32
+    ]
   },
   {
     "id": "760046625671479296",
@@ -267,6 +271,10 @@ const MIKUS = [
     "continent": "americas",
     "loc": [
       "brazil"
+    ],
+    "coords": [
+      -48,
+      -10
     ]
   },
   {
@@ -281,7 +289,10 @@ const MIKUS = [
     "loc": [
       "appalachia"
     ],
-    "coords": [-83.49, 35.56]
+    "coords": [
+      -83.49,
+      35.56
+    ]
   },
   {
     "id": "760052803693592576",
@@ -296,7 +307,10 @@ const MIKUS = [
       "japan",
       "it's unclear what period this is; i would appreciate anybody familiar who can help me identify it!"
     ],
-    "coords": [138, 36]
+    "coords": [
+      138,
+      36
+    ]
   },
   {
     "id": "760052693419032576",
@@ -310,7 +324,10 @@ const MIKUS = [
     "loc": [
       "puerto rico"
     ],
-    "coords": [-66.5, 18.2]
+    "coords": [
+      -66.5,
+      18.2
+    ]
   },
   {
     "id": "760049349811191808",
@@ -323,7 +340,8 @@ const MIKUS = [
     "continent": "oceania",
     "loc": [
       "aboriginal"
-    ]
+    ],
+    "coords": [135, -25]
   },
   {
     "id": "760046815458541568",
@@ -339,7 +357,10 @@ const MIKUS = [
       "massachusetts",
       "boston"
     ],
-    "coords": [-71.057778, 42.360278]
+    "coords": [
+      -71.057778,
+      42.360278
+    ]
   },
   {
     "id": "760052079990620160",
@@ -355,7 +376,16 @@ const MIKUS = [
       "louisiana",
       "new orleans"
     ],
-    "coords": [-90.078333, 29.976111]
+    "coords": [
+      -90.078333,
+      29.976111
+    ]
+  },
+  {
+    "id": "760046169910099968",
+    "post_url": "https://tmblr.co/Z3fYVOgCEVRoOq00",
+    "meta": true,
+    "collated_at": "2024-08-28 09:15:11"
   },
   {
     "id": "760078289519902720",
@@ -371,7 +401,10 @@ const MIKUS = [
     "loc": [
       "brazil"
     ],
-    "coords": [-52, 10]
+    "coords": [
+      -52,
+      -10
+    ]
   },
   {
     "id": "760080475846066176",
@@ -387,7 +420,10 @@ const MIKUS = [
     "loc": [
       "norway"
     ],
-    "coords": [8, 61]
+    "coords": [
+      8,
+      61
+    ]
   },
   {
     "id": "760080497112236032",
@@ -403,7 +439,10 @@ const MIKUS = [
     "loc": [
       "portugal"
     ],
-    "coords": [-8, 39]
+    "coords": [
+      -8,
+      39
+    ]
   },
   {
     "id": "760080559850618880",
@@ -421,6 +460,25 @@ const MIKUS = [
       "california",
       "long beach"
     ],
-    "coords": [-118.195556, 33.768333]
+    "coords": [
+      -118.195556,
+      33.768333
+    ]
+  },
+  {
+    "id": "760083826126077952",
+    "post_url": "https://tmblr.co/Z3fYVOgCN3Ptmy00",
+    "meta": false,
+    "collated_at": "2024-08-28 19:13:43",
+    "img_min_url": "https://64.media.tumblr.com/7a3a5f23628d4904148efc8cbd639451/aed669f518d4dcc8-b9/s75x75_c1/ff4602310724c7572f23d1ab76c49e9d008bc170.jpg",
+    "img_max_url": "https://64.media.tumblr.com/7a3a5f23628d4904148efc8cbd639451/aed669f518d4dcc8-b9/s2048x3072/08ecf5d7cb2c23702ad215a57df0e05e994a3735.jpg",
+    "artist": "k0ull",
+    "artist_url": "https://tumblr.com/k0ull",
+    "date": "2024-08-26 21:13:36",
+    "continent": "asia",
+    "loc": [
+      "karachai"
+    ],
+    "coords": [41.783333, 43.916667]
   }
 ]
