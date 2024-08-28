@@ -11,19 +11,14 @@ CACHE_ROOTS = Path('.cache/rootposts/')
 MIKUS = Path('static/mikus.js')
 JS_HEADER = 'const MIKUS = '
 
-mikus = []
-SEEN = set()
+MIKUS_SEEN = dict()
 if MIKUS.is_file():
     text = MIKUS.read_text().removeprefix(JS_HEADER)
     mikus = json.loads(text)
-    SEEN = {miku['id'] for miku in mikus}
+    MIKUS_SEEN = {miku['id']: miku for miku in mikus}
 
     # TODO: find the date ID so we don't spam tumblr
     # and can continually fetch!
-
-
-# exit()
-
 
 
 client = Client.from_keys('.keys', '.cache')
@@ -33,12 +28,11 @@ def dig(obj: dict):
     for k, v in obj.items():
         print(f'{k:30} {type(v).__name__} {v!r}')
 
+mikus = []
 for post in posts:
-    post: Post
+    miku = {}
     post_id = post['id_string']
-    if post_id in SEEN:
-        continue
-    SEEN.add(post_id)
+    miku = MIKUS_SEEN.get(post_id, {})
 
     tags: list = post['tags']
     if 'meta' in tags:
@@ -60,12 +54,13 @@ for post in posts:
 
     dt = Post.get_date(client.get_root_post(post))
     # HACK: this ignores twitter because. not gonna go there tbh.
-    img_url = Post.get_first_image(post).get('max')
+    srcset = Post.get_first_image(post)
     post_url = post['short_url']
 
-    mikus.append({
+    miku.update({
         'id': post_id,
-        'img_url': img_url,
+        'img_min_url': srcset.get(75),
+        'img_max_url': srcset.get('max'),
         'artist': artist,
         'artist_url': artist_url,
         'date': str(dt),
@@ -73,8 +68,10 @@ for post in posts:
         'continent': continent,
         'loc': loc,
     })
+    mikus.append(miku)
 
     print(f'{artist:20} {post_url} {dt} {continent:10} {loc}')
 
+print(mikus)
 mikus.sort(key=lambda x: x['date'])
 MIKUS.write_text(JS_HEADER + json.dumps(mikus, indent=2))

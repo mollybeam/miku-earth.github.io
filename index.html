@@ -47,5 +47,47 @@
             center: [0, 0], // starting position [lng, lat]
             zoom: 1 // starting zoom
         });
+
+        map.on('load', () => {
+            map
+                .addSource('areas', {
+                    type: 'vector',
+                    url: `https://api.maptiler.com/data/ae1502a2-aa65-426a-8c80-6fa0685e0cd2/features.json?key=${KEY}`
+                })
+            // .addLayer({
+            //     id: 'areas',
+            //     type: 'fill',
+            //     source: 'areas',
+            //     'source-layer': 'features',
+            //     paint: {
+            //         'fill-color': '#888888',
+            //         'fill-opacity': 0.5
+            //     },
+            //     // filter: ['==', ['get', 'name'], 'moravia1']
+            // }, "")
+
+            MIKUS.forEach(miku => {
+                if (!miku.coords) return;
+
+
+                // create a DOM element for the marker
+                const el = document.createElement('div');
+                el.className = 'miku';
+                el.style.backgroundImage =
+                    `url(${miku.img_min_url})`;
+                el.style.width = `75px`;
+                el.style.height = `75px`;
+
+                el.addEventListener('click', () => {
+                    console.log(miku);
+                });
+
+                let marker = new maplibregl.Marker({ element: el })
+                    .setLngLat(miku.coords)
+                    .addTo(map);
+            });
+        })
+
+
     </script>
 </body>
