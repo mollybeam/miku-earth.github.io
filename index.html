@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf8">
+    <title>Miku Worldwide</title>
+    <!-- <meta name="theme-color" content="#FD7928"> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/static/icon180.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="512x512" href="/static/icon512.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/static/icon32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/static/icon16.png"> -->
+    <!-- <link rel="manifest" href="/static/site.webmanifest"> -->
+
+    <link rel="stylesheet" href="static/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+
+    <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@^2.4/dist/maplibre-gl.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@^2.4/dist/maplibre-gl.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>miku worldwide</h1>
+        <h2>very much a work in progress!</h2>
+        <div id="map"></div>
+    </div>
+
+
+    <!-- post-load script: -->
+
+    <script>
+        var map = new maplibregl.Map({
+            container: 'map', // container id
+            style: 'https://demotiles.maplibre.org/style.json', // style URL
+            center: [0, 0], // starting position [lng, lat]
+            zoom: 1 // starting zoom
+        });
+    </script>
+</body>
