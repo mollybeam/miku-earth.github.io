@@ -45,7 +45,7 @@ for post in posts:
     miku.update({
         'id': post_id,
         'post_url': post['short_url'],
-        'meta': 'meta' in tags,
+        'meta': 'meta' in tags or 'various' in tags,
         'collated_at': str(Post.get_date(post)),
     })
     mikus.append(miku)

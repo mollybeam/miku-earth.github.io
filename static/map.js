@@ -28,12 +28,30 @@ map.on('load', () => {
     //     // filter: ['==', ['get', 'name'], 'moravia1']
     // }, "")
 
+    let N = 0
+
+    function shuffle(array) {
+        // fisher-yates
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+    shuffle(MIKUS);
+
+    const ANIMATION_TOTAL_SECONDS = 2.5;
+    const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
+
     MIKUS.forEach(miku => {
         if (!miku.coords) return;
+        N++;
 
         // create a DOM element for the marker
         const el = document.createElement('a');
         el.className = 'miku';
+        let delay = N * ANIM_T
+        el.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
         el.innerHTML = `
             <img class='preview' src="${miku.img_min_url}">
         `
@@ -50,4 +68,9 @@ map.on('load', () => {
             .setLngLat(miku.coords)
             .addTo(map);
     });
+    const count = document.getElementById('count');
+    // why N and not length? we want to ignore meta posts.
+    // (for timing purposes that's a trivial difference though!)
+    count.innerText = N;
+    count.classList.remove('transparent');
 })
