@@ -54,8 +54,8 @@ const MIKUS = [
       "sweden"
     ],
     "coords": [
-      56.552,
-      14.1346
+      14.1346,
+      56.552
     ],
     "img_min_url": "https://64.media.tumblr.com/ded7067c83e42e28f65256f132f964b1/82d20e76c1265da9-0a/s75x75_c1/cee7bd73804158671cf9b6b0e25ca50ef4ec4a1b.png",
     "img_max_url": "https://64.media.tumblr.com/ded7067c83e42e28f65256f132f964b1/82d20e76c1265da9-0a/s2048x3072/ab3df42d941c0033c87e9ec39e33ef60205ffaf9.png"
