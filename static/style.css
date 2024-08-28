@@ -4,18 +4,16 @@
 }
 
 .content header {
-  flex-grow: 0;
-  flex-shrink: 0;
+  height: 20vh;
+  overflow: scroll;
 }
 
 #map {
   height: 80vh;
-  /* flex: 1; */
-  /* display: flex;
-  flex-grow: 1;
-  align-items: stretch; */
 
-  position: absolute;
+  position: fixed;
+  display: block;
   left: 0;
+  bottom: 0;
   width: 100vw;
 }
