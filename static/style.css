@@ -6,6 +6,11 @@ p {
   font-weight: normal;
 }
 
+a,
+a:visited {
+  color: #3dbdd5;
+}
+
 .content {
   height: 100%;
   flex-direction: column;
