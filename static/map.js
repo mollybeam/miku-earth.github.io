@@ -83,6 +83,7 @@ map.on('load', () => {
         a.id = `miku${miku.id}`;
         let delay = N * ANIM_T
         a.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
+        a.title = `${miku.name} / @${miku.artist}`
 
         const img = document.createElement('img')
         img.classList.add('preview')

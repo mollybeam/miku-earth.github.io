@@ -1772,7 +1772,7 @@ const MIKUS = [
       "india"
     ],
     "historical": false,
-    "name": "",
+    "name": "India",
     "coords": [
       78,
       21
@@ -1835,7 +1835,7 @@ const MIKUS = [
       "nicaragua"
     ],
     "historical": false,
-    "name": "",
+    "name": "Nicaragua",
     "coords": [
       -85.12,
       13.13
@@ -1904,7 +1904,7 @@ const MIKUS = [
       "moldova"
     ],
     "historical": false,
-    "name": "",
+    "name": "Moldova",
     "coords": [
       29,
       47
@@ -1925,7 +1925,7 @@ const MIKUS = [
       "south africa"
     ],
     "historical": false,
-    "name": "",
+    "name": "South Africa",
     "coords": [
       25,
       -30
