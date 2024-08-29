@@ -10,6 +10,18 @@ var map = new maplibregl.Map({
     zoom: 1 // starting zoom
 });
 
+function attribute(map, text, url) {
+    let a = document.createElement(url ? 'a' : 'span')
+    a.innerText = ' ' + text
+    if (url) {
+        a.href = url
+        a.target = '_blank'
+    }
+    let attrib = map.getContainer()
+        .querySelector('.maplibregl-ctrl-attrib-inner')
+    attrib.appendChild(document.createTextNode(" "))
+    attrib.appendChild(a)
+}
 function shuffle(array) {
     // fisher-yates
     for (let i = array.length - 1; i > 0; i--) {
@@ -20,6 +32,7 @@ function shuffle(array) {
 }
 
 map.on('load', () => {
+    attribute(map, "© the respective artists")
     shuffle(MIKUS);
 
     // map
