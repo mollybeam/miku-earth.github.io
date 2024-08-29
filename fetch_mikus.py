@@ -21,7 +21,7 @@ if MIKUS.is_file():
     MIKUS_SEEN = {miku['id']: miku for miku in mikus}
     N_ALREADY = len(mikus)
 
-    final_dt = datetime.fromisoformat(mikus[-1]['date'])
+    final_dt = datetime.fromisoformat([m['date'] for m in mikus if 'date' in m][-1])
     fetch_after = int(final_dt.timestamp())
     print(fetch_after)
 

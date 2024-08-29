@@ -1098,7 +1098,10 @@ const MIKUS = [
       "minsk"
     ],
     "name": "Minsk",
-    "coords": [27.56, 53.90]
+    "coords": [
+      27.56,
+      53.9
+    ]
   },
   {
     "id": "760103646244503552",
@@ -1115,6 +1118,49 @@ const MIKUS = [
       "cuba"
     ],
     "name": "Cuba",
-    "coords": [-80, 22]
+    "coords": [
+      -80,
+      22
+    ]
+  },
+  {
+    "id": "760105522689097728",
+    "post_url": "https://tmblr.co/Z3fYVOgCR-8Nia00",
+    "meta": false,
+    "collated_at": "2024-08-29 00:58:34",
+    "thumb": "https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s75x75_c1/8dceee07f2ee248944f264ca61b3cedd91065ddf.png",
+    "srcset": "https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s75x75_c1/8dceee07f2ee248944f264ca61b3cedd91065ddf.png 75w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s100x200/280786758d2ed34a77de8702adf99e1afd4007d5.png 100w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s250x400/87d14ecbc4ac2232244a21a73a83517915f03f40.png 250w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s400x600/8b1a6cdc7167aaeae207b904a5f43a8fed622a84.png 400w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s500x750/c6c4fb4d65fa2b747616bf29c19d2d3cbbbb8f71.png 500w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s540x810/c2db3cc46a3d1c6e7f5afc4d976264eb59e474b7.png 540w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s640x960/300aa0b4b946ee456011ef9d2d5ae3ab753e4fa2.png 640w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s1280x1920/cd972fd64b7e94e4e2999056c06e42901fd1dbea.png 1280w, https://64.media.tumblr.com/02a064f60c01adfbbbe89bb07801db26/d2ac0b4f6e546bcf-c3/s2048x3072/74886c1a970be05fde11f8359243a48242de36c7.png 2048w",
+    "artist": "unamusedyams",
+    "artist_url": "https://tumblr.com/unamusedyams",
+    "date": "2024-08-28 23:59:48",
+    "continent": "americas",
+    "loc": [
+      "texas"
+    ],
+    "location": "Texas",
+    "coords": [-99, 31]
+  },
+  {
+    "id": "760107727586492416",
+    "post_url": "https://tmblr.co/Z3fYVOgCSVDrqe00",
+    "meta": true,
+    "collated_at": "2024-08-29 01:33:37"
+  },
+  {
+    "id": "760108030386962432",
+    "post_url": "https://tmblr.co/Z3fYVOgCSZds8m00",
+    "meta": false,
+    "collated_at": "2024-08-29 01:38:26",
+    "thumb": "https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s75x75_c1/9a547625a45fd3c571010ee0eadd341d45fc6632.png",
+    "srcset": "https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s75x75_c1/9a547625a45fd3c571010ee0eadd341d45fc6632.png 75w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s100x200/639dce960b3b5e8af39ec9d13e6f7531d875399e.png 100w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s250x400/63156304c4dbe3fbba480c21130ee7786ffc6748.png 250w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s400x600/169a9c3f94dd4ee477b6a7c40e1d6b623d8a06f0.png 400w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s500x750/0e66dc4efca8e1180a551ccd2d93c873770aaff4.png 500w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s540x810/a2b5eb5f809683c37813939df697be6b9e69b121.png 540w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s640x960/0ac6c63aa4d451af6cdf46975d1570e00804b736.png 640w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s1280x1920/3b2fde5cedb1a5e5055073f44b6f97e2005549fa.png 1280w, https://64.media.tumblr.com/5030c205bd7c5a008707c1a342013e33/de92a629b551c94c-c5/s2048x3072/1ad22b3869661e651b935da15c0c820a0ae9fcf8.png 2048w",
+    "artist": "pip0h",
+    "artist_url": "https://tumblr.com/pip0h",
+    "date": "2024-08-28 02:49:52",
+    "continent": "americas",
+    "loc": [
+      "ecuador"
+    ],
+    "location": "Ecuador",
+    "coords": [-77.5, -2]
   }
 ]
