@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 from pathlib import Path
 
-from pytumblr2 import Post, Client
+from pytumblr2 import Post, Client, get_srcset
 
 CACHE_POSTS = Path('.cache/posts.json')
 CACHE_ROOTS = Path('.cache/rootposts/')
@@ -25,8 +25,6 @@ if MIKUS.is_file():
     fetch_after = int(final_dt.timestamp())
     print(fetch_after)
 
-# exit()
-
 client = Client.from_keys('.keys', '.cache')
 posts = client.get_posts_with_cache('miku-earth', after=fetch_after)
 
@@ -37,8 +35,7 @@ def dig(obj: dict):
 for post in posts:
     post_id = post['id_string']
     miku = MIKUS_SEEN.get(post_id, {})
-    if miku:
-        continue
+    new_miku = not miku
 
     tags: list = post['tags']
 
@@ -48,7 +45,11 @@ for post in posts:
         'meta': 'meta' in tags or 'various' in tags,
         'collated_at': str(Post.get_date(post)),
     })
-    mikus.append(miku)
+
+    miku.pop('img_min_url', None)
+    miku.pop('img_max_url', None)
+    if new_miku:
+        mikus.append(miku)
     if miku['meta']:
         continue
 
@@ -68,11 +69,12 @@ for post in posts:
 
     dt = Post.get_date(client.get_root_post(post))
     # HACK: this ignores twitter because. not gonna go there tbh.
-    srcset = Post.get_first_image(post)
+    srcset_raw = Post.get_first_image(post)
+    srcset = get_srcset(srcset_raw)
 
     miku.update({
-        'img_min_url': srcset.get(75),
-        'img_max_url': srcset.get('max'),
+        'thumb': srcset.get(75),
+        'srcset': srcset_raw,
         'artist': artist,
         'artist_url': artist_url,
         'date': str(dt),
@@ -81,7 +83,8 @@ for post in posts:
     })
     # mikus.append(miku)
 
-    print(f'{artist:20} {dt} {continent:10} {loc}')
+    if new_miku:
+        print(f'{artist:20} {dt} {continent:10} {loc}')
 
 N_NEW = len(mikus) - N_ALREADY
 print(f'{N_ALREADY} + {N_NEW} new = {len(mikus)} total')

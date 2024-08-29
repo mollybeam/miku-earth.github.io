@@ -28,7 +28,18 @@ map.on('load', () => {
     //     // filter: ['==', ['get', 'name'], 'moravia1']
     // }, "")
 
-    let N = 0
+    const mikustyle = document.createElement('style');
+    document.querySelector('head').appendChild(mikustyle)
+    mikustyle.innerText = "";
+    let setSize = () => {
+        let z = map.getZoom();
+        w = 3 ** (z / 5 + 1);
+        // console.log(z, w)
+        mikustyle.innerText = `.miku img {width: ${w}em !important; height: ${w}em !important; overflow: hidden}`
+    }
+    setSize()
+    map.on('zoom', setSize)
+
 
     function shuffle(array) {
         // fisher-yates
@@ -43,19 +54,10 @@ map.on('load', () => {
     const ANIMATION_TOTAL_SECONDS = 2.5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
-    const mikustyle = document.createElement('style');
-    document.querySelector('head').appendChild(mikustyle)
-    mikustyle.innerText = "";
-
-    map.on('zoom', () => {
-        let z = map.getZoom();
-        w = 3 ** (z / 5 + 1);
-        console.log(z, w)
-        mikustyle.innerText = `.miku img {width: ${w}em !important;}`
-    })
-
+    let N = 0
     MIKUS.forEach(miku => {
         if (!miku.coords) return;
+        console.log(miku.name, miku.coords)
         N++;
 
         // create a DOM element for the marker
@@ -66,7 +68,9 @@ map.on('load', () => {
 
         const img = document.createElement('img')
         img.classList.add('preview')
-        img.src = miku.img_min_url
+        img.src = miku.thumb
+
+        // img.srcset = miku.srcset
         // img.style = `width: 4em !important;`
 
         a.appendChild(img)
@@ -75,9 +79,11 @@ map.on('load', () => {
         // ${miku.artist}
         // </article>
 
-        // a.addEventListener('mouseover', () => {
-        //     console.log(miku);
-        // });
+        a.addEventListener('mouseover', () => {
+            console.log(miku);
+            // img.srcset = miku.srcset;
+            // img.width = '500px';
+        });
 
         let marker = new maplibregl.Marker({ element: a })
             .setLngLat(miku.coords)
