@@ -10,12 +10,23 @@ var map = new maplibregl.Map({
     zoom: 1 // starting zoom
 });
 
+function shuffle(array) {
+    // fisher-yates
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 map.on('load', () => {
-    map
-        .addSource('areas', {
-            type: 'vector',
-            url: `https://api.maptiler.com/data/ae1502a2-aa65-426a-8c80-6fa0685e0cd2/features.json?key=${KEY}`
-        })
+    shuffle(MIKUS);
+
+    // map
+    //     .addSource('areas', {
+    //         type: 'vector',
+    //         url: `https://api.maptiler.com/data/ae1502a2-aa65-426a-8c80-6fa0685e0cd2/features.json?key=${KEY}`
+    // })
     // .addLayer({
     //     id: 'areas',
     //     type: 'fill',
@@ -40,29 +51,23 @@ map.on('load', () => {
     setSize()
     map.on('zoom', setSize)
 
-
-    function shuffle(array) {
-        // fisher-yates
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-    shuffle(MIKUS);
-
     const ANIMATION_TOTAL_SECONDS = 2.5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
     let N = 0
     MIKUS.forEach(miku => {
-        if (!miku.coords) return;
-        console.log(miku.name, miku.coords)
+        if (miku.meta) return;
+        if (!miku.coords)
+            return console.log(miku.id, "no coords")
+        if (!miku.name)
+            console.log(miku.id, "no name")
+
         N++;
 
         // create a DOM element for the marker
         const a = document.createElement('a');
         a.className = 'miku';
+        a.id = `miku${miku.id}`;
         let delay = N * ANIM_T
         a.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
 
