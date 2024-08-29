@@ -18,6 +18,7 @@ const MIKUS = [
       "moravia",
       2
     ],
+    "name": "Moravia",
     "img_min_url": "https://64.media.tumblr.com/cde8bdc348c9827c4c633d15750c1abd/62e125e06a4c34de-2f/s75x75_c1/7410f5a3b7127c82ec05e0a63f75278df83ec254.png",
     "img_max_url": "https://64.media.tumblr.com/cde8bdc348c9827c4c633d15750c1abd/62e125e06a4c34de-2f/s2048x3072/682c55415d7ae5f8c524a0cf83c23bbba82d3756.png"
   },
@@ -40,6 +41,8 @@ const MIKUS = [
       "igbo",
       5
     ],
+    "name": "Igbo",
+    "wikipedia": "Igbo people",
     "img_min_url": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s75x75_c1/366723331496bebccbd328d55e9eeeea9edf2877.png",
     "img_max_url": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s2048x3072/2750fe4b7828cd535dd4b0ec6f7e7cb1e20a4604.png"
   },
@@ -53,6 +56,7 @@ const MIKUS = [
     "loc": [
       "sweden"
     ],
+    "name": "Sweden",
     "coords": [
       14.1346,
       56.552
@@ -70,6 +74,7 @@ const MIKUS = [
     "loc": [
       "greece"
     ],
+    "name": "Greece",
     "coords": [
       22,
       39
@@ -89,6 +94,7 @@ const MIKUS = [
       -99.13,
       19.43
     ],
+    "name": "Prehispanic",
     "internal_note": "coords are Tenochtitlan",
     "img_min_url": "https://64.media.tumblr.com/7d4e89372755b767801617948b4d18b5/553be2eb5804f4cc-94/s75x75_c1/bb6253d6e6a84b7b982fca12c75cb7810e3d998b.png",
     "img_max_url": "https://64.media.tumblr.com/7d4e89372755b767801617948b4d18b5/553be2eb5804f4cc-94/s1280x1920/4e7d91dbe895ec7b97a11a3b8a5f1ecc5c7462a0.png"
@@ -120,6 +126,7 @@ const MIKUS = [
     "loc": [
       "mexico"
     ],
+    "name": "Mexico",
     "coords": [
       -102,
       23
@@ -190,6 +197,7 @@ const MIKUS = [
     "loc": [
       "germany"
     ],
+    "name": "Germany",
     "coords": [
       9,
       51
@@ -208,7 +216,7 @@ const MIKUS = [
       "canada",
       "newfoundland"
     ],
-    "location": "Newfoundland",
+    "name": "Newfoundland",
     "coords": [
       -59.999167,
       53.23
@@ -242,6 +250,8 @@ const MIKUS = [
       "australia",
       "aboriginal"
     ],
+    "name": "Aboriginal",
+    "wikipedia": "Aboriginal Australians",
     "coords": [
       131,
       -25
@@ -345,6 +355,8 @@ const MIKUS = [
     "loc": [
       "aboriginal"
     ],
+    "name": "Aboriginal",
+    "wikipedia": "Aboriginal Australians",
     "coords": [
       135,
       -25
@@ -364,6 +376,7 @@ const MIKUS = [
       "massachusetts",
       "boston"
     ],
+    "name": "Boston",
     "coords": [
       -71.057778,
       42.360278
@@ -383,6 +396,7 @@ const MIKUS = [
       "louisiana",
       "new orleans"
     ],
+    "name": "New Orleans",
     "coords": [
       -90.078333,
       29.976111
@@ -408,6 +422,7 @@ const MIKUS = [
     "loc": [
       "brazil"
     ],
+    "name": "Brazil",
     "coords": [
       -52,
       -10
@@ -427,6 +442,7 @@ const MIKUS = [
     "loc": [
       "norway"
     ],
+    "name": "Norway",
     "coords": [
       8,
       61
@@ -446,6 +462,7 @@ const MIKUS = [
     "loc": [
       "portugal"
     ],
+    "name": "Portugal",
     "coords": [
       -8,
       39
@@ -467,6 +484,7 @@ const MIKUS = [
       "california",
       "long beach"
     ],
+    "name": "Long Beach, California",
     "coords": [
       -118.195556,
       33.768333
@@ -486,6 +504,7 @@ const MIKUS = [
     "loc": [
       "karachai"
     ],
+    "name": "Karachai",
     "coords": [
       41.783333,
       43.916667
@@ -506,6 +525,11 @@ const MIKUS = [
       "china",
       "tang dynasty",
       "(historical)"
+    ],
+    "name": "Tang dynasty",
+    "coords": [
+      108.858333,
+      34.308333
     ]
   },
   {
@@ -521,6 +545,11 @@ const MIKUS = [
     "continent": "europe",
     "loc": [
       "germany"
+    ],
+    "name": "Germany",
+    "coords": [
+      11,
+      51
     ]
   },
   {
@@ -536,6 +565,11 @@ const MIKUS = [
     "continent": "oceania",
     "loc": [
       "m\u0101ori"
+    ],
+    "name": "M\u0101ori culture",
+    "coords": [
+      173,
+      -42
     ]
   },
   {
@@ -551,6 +585,11 @@ const MIKUS = [
     "continent": "europe",
     "loc": [
       "united kingdom"
+    ],
+    "name": "United Kingdom",
+    "coords": [
+      -3.5,
+      53.5
     ]
   },
   {
@@ -566,6 +605,11 @@ const MIKUS = [
     "continent": "americas",
     "loc": [
       "guatamela"
+    ],
+    "name": "Guatamela",
+    "coords": [
+      -90.25,
+      15.5
     ]
   },
   {
@@ -580,7 +624,12 @@ const MIKUS = [
     "date": "2024-08-28 05:45:37",
     "continent": "asia",
     "loc": [
-      "taiwan"
+      "hong kong"
+    ],
+    "name": "Hong Kong",
+    "coords": [
+      114.2,
+      22.3
     ]
   },
   {
@@ -596,6 +645,11 @@ const MIKUS = [
     "continent": "europe",
     "loc": [
       "england"
+    ],
+    "name": "England",
+    "coords": [
+      -1.38,
+      53.13
     ]
   },
   {
@@ -612,8 +666,11 @@ const MIKUS = [
     "loc": [
       "hungary"
     ],
-    "location": "Hungary",
-    "coords": [20, 47]
+    "name": "Hungary",
+    "coords": [
+      20,
+      47
+    ]
   },
   {
     "id": "760090137663340544",
@@ -629,8 +686,11 @@ const MIKUS = [
     "loc": [
       "kuban"
     ],
-    "location": "Kuban",
-    "coords": [38.96, 45.03]
+    "name": "Kuban",
+    "coords": [
+      38.96,
+      45.03
+    ]
   },
   {
     "id": "760090173767892992",
@@ -647,8 +707,11 @@ const MIKUS = [
       "canada",
       "nova scotia"
     ],
-    "location": "Nova Scotia",
-    "coords": [-63, 45]
+    "name": "Nova Scotia",
+    "coords": [
+      -63,
+      45
+    ]
   },
   {
     "id": "760090212176166912",
@@ -664,9 +727,11 @@ const MIKUS = [
     "loc": [
       "canada"
     ],
-    "location": "Canada",
-    "coords": [-100, 55]
-
+    "name": "Canada",
+    "coords": [
+      -100,
+      55
+    ]
   },
   {
     "id": "760090271102959616",
@@ -682,8 +747,11 @@ const MIKUS = [
     "loc": [
       "croatia"
     ],
-    "location": "Croatia",
-    "coords": [15.5, 45.17]
+    "name": "Croatia",
+    "coords": [
+      15.5,
+      45.17
+    ]
   },
   {
     "id": "760090447284682752",
@@ -717,8 +785,11 @@ const MIKUS = [
     "loc": [
       "bulgaria"
     ],
-    "location": "Hungary",
-    "coords": [23.32, 52.70]
+    "name": "Hungary",
+    "coords": [
+      23.32,
+      52.7
+    ]
   },
   {
     "id": "760091657695838208",
@@ -734,8 +805,11 @@ const MIKUS = [
     "loc": [
       "hungary"
     ],
-    "location": "Hungary",
-    "coords": [20, 47]
+    "name": "Hungary",
+    "coords": [
+      20,
+      47
+    ]
   },
   {
     "id": "760091858771820544",
@@ -751,8 +825,11 @@ const MIKUS = [
     "loc": [
       "wales"
     ],
-    "location": "Wales",
-    "coords": [-3.8, 52.3]
+    "name": "Wales",
+    "coords": [
+      -3.8,
+      52.3
+    ]
   },
   {
     "id": "760092357544837120",
@@ -768,8 +845,11 @@ const MIKUS = [
     "loc": [
       "vatican city"
     ],
-    "location": "Vatican City",
-    "coords": [12.4525, 41.9025]
+    "name": "Vatican City",
+    "coords": [
+      12.4525,
+      41.9025
+    ]
   },
   {
     "id": "760092415189254144",
@@ -785,9 +865,11 @@ const MIKUS = [
     "loc": [
       "djibouti"
     ],
-    "location": "Djibouti",
-    "coords": [43, 11.5]
-
+    "name": "Djibouti",
+    "coords": [
+      43,
+      11.5
+    ]
   },
   {
     "id": "760094698828333056",
@@ -805,8 +887,11 @@ const MIKUS = [
       "alberta",
       "calgary"
     ],
-    "location": "Calgary",
-    "coords": [-114.07, 51.05]
+    "name": "Calgary",
+    "coords": [
+      -114.07,
+      51.05
+    ]
   },
   {
     "id": "760095355825176576",
@@ -822,8 +907,11 @@ const MIKUS = [
     "loc": [
       "canada"
     ],
-    "location": "Canada",
-    "coords": [-110, 55]
+    "name": "Canada",
+    "coords": [
+      -110,
+      55
+    ]
   },
   {
     "id": "760095541870968832",
@@ -839,8 +927,11 @@ const MIKUS = [
     "loc": [
       "colorado"
     ],
-    "location": "Colorado",
-    "coords": [-105.5, 39]
+    "name": "Colorado",
+    "coords": [
+      -105.5,
+      39
+    ]
   },
   {
     "id": "760096206819033088",
@@ -856,8 +947,11 @@ const MIKUS = [
     "loc": [
       "nashville"
     ],
-    "location": "Nashville",
-    "coords": [-86.774, 36.162],
+    "name": "Nashville",
+    "coords": [
+      -86.774,
+      36.162
+    ]
   },
   {
     "id": "760096667412348928",
@@ -873,7 +967,27 @@ const MIKUS = [
     "loc": [
       "we wai kai"
     ],
-    "location": "We Wai Kai Nation",
-    "coords": [-125.23, 50.167]
+    "name": "We Wai Kai Nation",
+    "coords": [
+      -125.23,
+      50.167
+    ]
+  },
+  {
+    "id": "760098263015751680",
+    "post_url": "https://tmblr.co/Z3fYVOgCQLVHSW00",
+    "meta": false,
+    "collated_at": "2024-08-28 23:03:11",
+    "img_min_url": "https://64.media.tumblr.com/553ce2db639203ab6d41598d5f1ed3b4/5d690a71a0228024-96/s75x75_c1/c62b3c39b9501b777f30e1c34cb1185a7f1bf2fc.png",
+    "img_max_url": "https://64.media.tumblr.com/553ce2db639203ab6d41598d5f1ed3b4/5d690a71a0228024-96/s1280x1920/31c8788efb29eef5aa3aebc1b50ab6059c2f7a02.png",
+    "artist": "chocochip_trip",
+    "artist_url": "https://twitter.com/chocochip_trip",
+    "date": "2024-08-28 23:03:11",
+    "continent": "europe",
+    "loc": [
+      "southern italy"
+    ],
+    "name": "Southern Italy",
+    "coords": [15.8, 40.6]
   }
 ]

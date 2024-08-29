@@ -43,28 +43,43 @@ map.on('load', () => {
     const ANIMATION_TOTAL_SECONDS = 2.5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
+    const mikustyle = document.createElement('style');
+    document.querySelector('head').appendChild(mikustyle)
+    mikustyle.innerText = "";
+
+    map.on('zoom', () => {
+        let z = map.getZoom();
+        w = 3 ** (z / 5 + 1);
+        console.log(z, w)
+        mikustyle.innerText = `.miku img {width: ${w}em !important;}`
+    })
+
     MIKUS.forEach(miku => {
         if (!miku.coords) return;
         N++;
 
         // create a DOM element for the marker
-        const el = document.createElement('a');
-        el.className = 'miku';
+        const a = document.createElement('a');
+        a.className = 'miku';
         let delay = N * ANIM_T
-        el.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
-        el.innerHTML = `
-            <img class='preview' src="${miku.img_min_url}">
-        `
-        el.href = miku.post_url
+        a.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
+
+        const img = document.createElement('img')
+        img.classList.add('preview')
+        img.src = miku.img_min_url
+        // img.style = `width: 4em !important;`
+
+        a.appendChild(img)
+        a.href = miku.post_url
         // <article>
         // ${miku.artist}
         // </article>
 
-        el.addEventListener('mouseover', () => {
-            console.log(miku);
-        });
+        // a.addEventListener('mouseover', () => {
+        //     console.log(miku);
+        // });
 
-        let marker = new maplibregl.Marker({ element: el })
+        let marker = new maplibregl.Marker({ element: a })
             .setLngLat(miku.coords)
             .addTo(map);
     });
