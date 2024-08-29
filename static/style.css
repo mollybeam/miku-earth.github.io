@@ -87,6 +87,11 @@ h1 {
   cursor: pointer;
 }
 
+#count {
+  display: inline-block;
+  width: 1.75em;
+}
+
 .miku img {
   width: 4em !important;
 }
