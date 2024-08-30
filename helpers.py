@@ -35,27 +35,24 @@ class Miku(TypedDict):
 def process_tags(tags: list[str]) -> Miku:
     "extract partial info from tags"
 
-    source = 'tumblr'
+    miku = {
+        'source': 'tumblr'
+    }
+
     match tags.pop():
         case '(from twitter)':
-            source = 'twitter'
+            miku['source'] = 'twitter'
         case not_a_source:
             tags.append(not_a_source)
 
-    continent, *loc, artist = tags
-    match source:
-        case 'tumblr':
-            artist_url = f'https://tumblr.com/{artist}'
-        case 'twitter':
-            artist_url = f'https://twitter.com/{artist}'
-
-    return {
-        'source': source,
-        'artist': artist,
-        'artist_url': artist_url,
-        'continent': continent,
-        'loc': loc,
-    }
+    if len(tags) == 1:
+        miku['name'] = tags[0]
+    elif len(tags) == 2:
+        miku['name'], miku['artist'] = tags
+    else:
+        # this older gave me RSI
+        miku['continent'], *miku['loc'], miku['artist'] = tags
+    return miku
 
 MIKUS = Path('static/mikus.js')
 JS_HEADER = 'const MIKUS = '

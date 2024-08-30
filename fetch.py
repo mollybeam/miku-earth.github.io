@@ -37,11 +37,21 @@ for post in posts:
     if miku['meta']:
         continue
 
-    miku.update(process_tags(post['tags']))
+    miku.setdefault('artist', post['trail'][-1]['blog']['name'])
 
     srcset_raw = Post.get_first_image(post)
     srcset = get_srcset(srcset_raw)
     dt = Post.get_date(client.get_root_post(post))
+
+    miku.update(process_tags(post['tags']))
+
+
+    match miku['source']:
+        case 'tumblr':
+            artist_url = f'https://tumblr.com/{miku['artist']}'
+        case 'twitter':
+            artist_url = f'https://twitter.com/{miku['artist']}'
+
 
     miku.update({
         'thumb': srcset.get(75),
@@ -49,7 +59,7 @@ for post in posts:
         'date': str(dt),
     })
 
-    print(f"{miku['artist']:20} {dt} {miku['continent']:10} {miku['loc']}")
+    print(f"{miku['artist']:20} {dt} {miku.get('loc', miku.get('name'))}")
 
 N_NEW = len(mikus) - N_ALREADY
 print(f'{N_ALREADY} + {N_NEW} new = {len(mikus)} total')
