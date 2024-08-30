@@ -1,8 +1,7 @@
 // yes i styled my own map. it was fun and hopefully makes for a nicer map experience!
 
 const MIKU_KEY = "7u4GIZgEyI3d1WRGQSI0";
-const DEV_KEY = "tKhcX9Y8K1Tuf3yejJxO";
-const KEY = DEV_KEY;
+const KEY = MIKU_KEY;
 var map = new maplibregl.Map({
     container: 'map', // container id
     style: `https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=${KEY}`,
