@@ -1,7 +1,8 @@
+const do_animate = false;
+
 // yes i styled my own map. it was fun and hopefully makes for a nicer map experience!
 
-const MIKU_KEY = "7u4GIZgEyI3d1WRGQSI0";
-const KEY = MIKU_KEY;
+const KEY = "7u4GIZgEyI3d1WRGQSI0";
 var map = new maplibregl.Map({
     container: 'map', // container id
     style: `https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=${KEY}`,
@@ -58,7 +59,7 @@ map.on('load', () => {
         let z = map.getZoom();
         w = 3 ** (z / 5 + 1);
         // console.log(z, w)
-        mikustyle.innerText = `.miku img {width: ${w}em !important; height: ${w}em !important; overflow: hidden}`
+        mikustyle.innerText = `.miku {--miku-width: ${w}em !important;}`
     }
     setSize()
     map.on('zoom', setSize)
@@ -76,34 +77,83 @@ map.on('load', () => {
 
         N++;
 
-        // create a DOM element for the marker
-        const a = document.createElement('a');
-        a.className = 'miku';
-        a.id = `miku${miku.id}`;
-        let delay = N * ANIM_T
-        a.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
-        a.title = `${miku.name} / @${miku.artist}`
+        const $ = x => document.createElement(x);
 
-        const img = document.createElement('img')
+        // // // MIKU ELEMENT
+
+        // div.miku
+        //   a.summary
+        //     img
+        //   article
+
+        // create a DOM element for the marker
+        const div = $('div');
+        div.id = `miku${miku.id}`;
+        div.className = 'miku';
+
+        const a = $('a')
+        a.className = 'summary'
+        a.target = '_blank'
+        a.rel = 'nofollow'
+        a.href = miku.post_url
+        a.title = `${miku.name} / @${miku.artist}`
+        div.appendChild(a)
+
+        const img = $('img')
         img.classList.add('preview')
         img.src = miku.thumb
+        a.appendChild(img)
+
+        const article = $('article');
+        div.appendChild(article)
+
+        // // // ARTICLE
+
+        let wiki = "https://en.wikipedia.org/wiki/"
+            + (miku.wikipedia ? miku.wikipedia : miku.name).replace(" ", "_")
+
+        article.innerHTML = `
+        <div class='article-content'>
+            <p class='title'>
+                <a href="${wiki}" target='_blank' rel='nofollow'>${miku.name}</a>
+            </p>
+            <p class='artist'>
+                <i>by
+                    <a href='${miku.artist_url}' target='_blank' rel='nofollow'>
+                        ${miku.artist}</a>
+                </i>
+            </p>
+        </div>
+        `
+
+
+
+
+
+        if (do_animate) {
+            let delay = N * ANIM_T
+            div.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
+        }
+
+
 
         // img.srcset = miku.srcset
         // img.style = `width: 4em !important;`
 
-        a.appendChild(img)
-        a.href = miku.post_url
         // <article>
         // ${miku.artist}
         // </article>
 
-        a.addEventListener('mouseover', () => {
-            console.log(miku);
-            // img.srcset = miku.srcset;
-            // img.width = '500px';
-        });
+        // div.addEventListener('mouseover', () => {
+        //     console.log(miku);
+        //     // img.srcset = miku.srcset;
+        //     // img.width = '500px';
+        // });
 
-        let marker = new maplibregl.Marker({ element: a })
+        let marker = new maplibregl.Marker({
+            element: div,
+            anchor: 'bottom',
+        })
             .setLngLat(miku.coords)
             .addTo(map);
     });

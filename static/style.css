@@ -43,6 +43,11 @@ h1 {
   color: black;
 }
 
+#count {
+  display: inline-block;
+  width: 1.75em;
+}
+
 #map {
   height: 80vh;
 
@@ -52,6 +57,8 @@ h1 {
   bottom: 0;
   width: 100vw;
 }
+
+/* Miku element */
 
 @keyframes fade-in {
   0% {
@@ -69,12 +76,16 @@ h1 {
   padding: 0;
   position: relative;
   border: none !important;
-  animation: fade-in 3s;
+  /* animation: fade-in 3s; */
+  --miku-width: 70px;
+  --bg: rgba(256, 256, 256, 75%);
+  width: var(--miku-width);
 }
 
 .miku .preview,
-.miku .article {
-  position: relative;
+.miku article,
+.miku article:before {
+  position: absolute;
   left: 0;
   top: 0;
 }
@@ -87,28 +98,67 @@ h1 {
   cursor: pointer;
 }
 
-#count {
-  display: inline-block;
-  width: 1.75em;
-}
-
 .miku img {
-  width: 4em !important;
+  width: var(--miku-width);
+  height: var(--miku-width);
+  overflow: hidden;
 }
 
 /* TODO: mobile sizing */
 
+.miku:hover {
+  z-index: 100;
+}
+
+.miku:hover img {
+  z-index: 101;
+}
+
 .miku article {
-  height: 100%;
-  background: white;
+  display: inline-block;
+  border-radius: calc(var(--miku-width) / 2);
+  background: var(--bg);
+  /* width: 5em; */
+  height: calc(1 * var(--miku-width) + 2px);
+  /* width: calc(3 * var(--miku-width)); */
   z-index: 0;
-  /* display: none; */
-  transition: transform 0.3s, opacity 0.3s;
-  opacity: 0;
-  transform: translateX(0px);
+  top: calc(0 - var(--miku-width));
+  padding-left: calc(var(--miku-width));
+
+  display: none;
+  /* animation: miku-desc 0.3s forwards; */
+}
+
+.miku article h1,
+.miku article p {
+  font-size: calc(var(--miku-width) / 3);
 }
 
 .miku:hover article {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  display: unset;
+  animation: miku-desc 0.3s forwards;
   opacity: 1;
-  transform: translateX(75px);
+  transform: scale(1) translate(0, 0);
+}
+
+.miku .article-content {
+  padding-top: 0.6em;
+  padding-left: 1em;
+  padding-right: calc(var(--miku-width) / 6);
+}
+
+article p {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  /* margin-bottom: calc(var(--miku-width) / 6); */
+}
+
+
+.miku img a,
+.miku img a:hover {
+  border: 0;
 }

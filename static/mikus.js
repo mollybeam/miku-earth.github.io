@@ -566,7 +566,8 @@ const MIKUS = [
       "long beach"
     ],
     "historical": false,
-    "name": "Long Beach, California",
+    "name": "Long Beach",
+    "wikipedia": "Long Beach, California",
     "coords": [
       -118.195556,
       33.768333
@@ -881,7 +882,7 @@ const MIKUS = [
       "bulgaria"
     ],
     "historical": false,
-    "name": "Hungary",
+    "name": "Bulgaria",
     "coords": [
       23.32,
       52.7
@@ -2050,7 +2051,7 @@ const MIKUS = [
     "historical": false,
     "name": "Florida",
     "coords": [
-      82,
+      -82,
       28
     ]
   },
