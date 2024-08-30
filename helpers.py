@@ -25,7 +25,7 @@ class Miku(TypedDict):
     continent: str
     loc: list[str]
 
-    historical: bool
+    shiny: bool
 
     # hand-tagged
     name: str

@@ -76,10 +76,19 @@ h1 {
   padding: 0;
   position: relative;
   border: none !important;
-  /* animation: fade-in 3s; */
-  --miku-width: 70px;
-  --bg: rgba(256, 256, 256, 75%);
+
+  --miku-zoom-width: 70px;
+  --miku-width: var(--miku-zoom-width);
   width: var(--miku-width);
+
+  --bg: rgba(256, 256, 256, 75%);
+  --border: black;
+}
+
+.miku.shiny {
+  --bg: rgba(255, 215, 0, 75%);
+  --border: rgb(255, 215, 0);
+  --miku-width: calc(var(--miku-zoom-width) / 3);
 }
 
 .miku .preview,
@@ -94,7 +103,7 @@ h1 {
   display: inline;
   z-index: 10;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid var(--border);
   cursor: pointer;
 }
 

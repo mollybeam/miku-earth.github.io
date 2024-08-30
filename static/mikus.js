@@ -2,50 +2,42 @@ const MIKUS = [
   {
     "id": "760046169910099968",
     "post_url": "https://tmblr.co/Z3fYVOgCEVRoOq00",
-    "meta": true,
-    "collated_at": "2024-08-28 09:15:11"
+    "meta": true
   },
   {
     "id": "760090447284682752",
     "post_url": "https://tmblr.co/Z3fYVOgCOZmJaa00",
-    "meta": true,
-    "collated_at": "2024-08-28 20:58:57"
+    "meta": true
   },
   {
     "id": "760090456894881792",
     "post_url": "https://tmblr.co/Z3fYVOgCOZvGOa00",
-    "meta": true,
-    "collated_at": "2024-08-28 20:59:06"
+    "meta": true
   },
   {
     "id": "760090464051396608",
     "post_url": "https://tmblr.co/Z3fYVOgCOZ-wyW00",
-    "meta": true,
-    "collated_at": "2024-08-28 20:59:13"
+    "meta": true
   },
   {
     "id": "760107727586492416",
     "post_url": "https://tmblr.co/Z3fYVOgCSVDrqe00",
-    "meta": true,
-    "collated_at": "2024-08-29 01:33:37"
+    "meta": true
   },
   {
     "id": "760149207259758592",
     "post_url": "https://tmblr.co/Z3fYVOgCbwqp0q00",
-    "meta": true,
-    "collated_at": "2024-08-29 12:32:55"
+    "meta": true
   },
   {
     "id": "760200786625118208",
     "post_url": "https://tmblr.co/Z3fYVOgCnfPqmq00",
-    "meta": true,
-    "collated_at": "2024-08-30 02:12:45"
+    "meta": true
   },
   {
     "id": "760226730926571520",
     "post_url": "https://tmblr.co/Z3fYVOgCtYyLee00",
-    "meta": true,
-    "collated_at": "2024-08-30 09:05:07"
+    "meta": true
   },
   {
     "id": "760184301654622208",
@@ -77,7 +69,6 @@ const MIKUS = [
       "moravia",
       2
     ],
-    "historical": false,
     "name": "Moravia",
     "meta": false,
     "thumb": "https://64.media.tumblr.com/cde8bdc348c9827c4c633d15750c1abd/62e125e06a4c34de-2f/s75x75_c1/7410f5a3b7127c82ec05e0a63f75278df83ec254.png",
@@ -98,27 +89,11 @@ const MIKUS = [
       "igbo",
       5
     ],
-    "historical": false,
     "name": "Igbo",
     "wikipedia": "Igbo people",
     "meta": false,
     "thumb": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s75x75_c1/366723331496bebccbd328d55e9eeeea9edf2877.png",
     "srcset": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s75x75_c1/366723331496bebccbd328d55e9eeeea9edf2877.png 75w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s100x200/717977d0135e3b7311a2b3b3fe9ba94b4218e4d6.png 100w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s250x400/0cd4d783796c99a1194c5405c765476b2e75006f.png 250w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s400x600/d848f9d72ba4eb374f5d240ded8b3166620accb2.png 400w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s500x750/1dd902ff68c123dd623f983fcb6fdbc8560e2b85.png 500w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s540x810/707df59ace193f9e659a4316d31e1a059023c5d7.png 540w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s640x960/a133b210c231d5ea05899a8b497ee6b81e6c2374.png 640w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s1280x1920/703483c8583b19768eea930f2717019ca541dbe2.png 1280w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/c1a7a9ac598a4cbf-fc/s2048x3072/2750fe4b7828cd535dd4b0ec6f7e7cb1e20a4604.png 1917w"
-  },
-  {
-    "id": "760108966374227968",
-    "post_url": "https://tmblr.co/Z3fYVOgCSnFZKq00",
-    "meta": false,
-    "source": "tumblr",
-    "artist": "terrichienyiart",
-    "artist_url": "https://tumblr.com/terrichienyiart",
-    "continent": "africa",
-    "loc": [
-      "nigeria"
-    ],
-    "thumb": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s75x75_c1/5b219a2782ebb2f153275e2652704d86b07c70de.png",
-    "srcset": "https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s75x75_c1/5b219a2782ebb2f153275e2652704d86b07c70de.png 75w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s100x200/71676a995b608c9f963f6666a842b462d7e02231.png 100w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s250x400/942bffc420eb2698aa078264535591a8b5c4d0a7.png 250w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s400x600/3a3d16c2faf61be30be0876f1b3a2f05247833e7.png 400w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s500x750/c275a7beec91f60374c062beb4a37bae20b43555.png 500w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s540x810/3c10c6f3eb2998a076cec8f6ef0798107d59f2c6.png 540w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s640x960/09942324b3eda7313d7e3d3f3f7bdd917ad57f6f.png 640w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s1280x1920/e714d1b8ba158f64af608cf528bf6702c9d79171.png 1280w, https://64.media.tumblr.com/3390614d1d96245a18479032f1e52c36/b3bb4273c244953e-3d/s2048x3072/0f489ac438d85e7262b80b150023b7e8d5780c9e.png 1917w",
-    "date": "2024-08-25 16:37:16"
   },
   {
     "id": "760179454451564544",
@@ -133,8 +108,9 @@ const MIKUS = [
     "name": "Antarctica",
     "coords": [
       0,
-      -82
-    ]
+      -84.5
+    ],
+    "shiny": true
   },
   {
     "id": "760091229334700032",
@@ -144,7 +120,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/livi-livered",
     "date": "2024-08-26 02:29:16",
     "continent": "europe",
-    "historical": false,
     "name": "Bulgaria",
     "coords": [
       23.32,
@@ -163,7 +138,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/beefreefs",
     "date": "2024-08-26 06:59:01",
     "continent": "americas",
-    "historical": false,
     "name": "Maryland",
     "coords": [
       -77,
@@ -180,7 +154,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/fer-xiv",
     "date": "2024-08-26 07:49:45",
     "continent": "europe",
-    "historical": false,
     "name": "Sardinia",
     "coords": [
       9,
@@ -195,7 +168,6 @@ const MIKUS = [
     "date": "2024-08-26 10:42:13",
     "post_url": "https://tmblr.co/Z3fYVOgCIrV0Se00",
     "continent": "europe",
-    "historical": false,
     "name": "Sweden",
     "coords": [
       14.1346,
@@ -212,7 +184,6 @@ const MIKUS = [
     "date": "2024-08-26 12:20:22",
     "post_url": "https://tmblr.co/Z3fYVOgCEddMuq00",
     "continent": "europe",
-    "historical": false,
     "name": "Greece",
     "coords": [
       22,
@@ -250,7 +221,6 @@ const MIKUS = [
       -99.13,
       19.43
     ],
-    "historical": false,
     "name": "Prehispanic",
     "dev_note": "coords are Tenochtitlan",
     "meta": false,
@@ -265,8 +235,10 @@ const MIKUS = [
     "artist": "hiort",
     "artist_url": "https://tumblr.com/hiort",
     "continent": "europe",
-    "loc": [
-      "ukraine"
+    "name": "Ukraine",
+    "coords": [
+      32,
+      49
     ],
     "thumb": "https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s75x75_c1/b64cce95e932233dafd2e4d157a7fc05cfe7c289.jpg",
     "srcset": "https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s75x75_c1/b64cce95e932233dafd2e4d157a7fc05cfe7c289.jpg 75w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s100x200/f5a85b0c6926b7fa86fe537993046e527752ee68.jpg 100w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s250x400/709254f634d4e0c858bf0a6b4627120b907da204.jpg 250w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s400x600/69e1c8023e7d723cb31c3e2b17df50ef18c209e4.jpg 400w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s500x750/08a03bf216980bf7e57f4049782adea8c0131804.jpg 500w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s540x810/1611550981f0c1ad1fddbc00faa6184d8c9bd5a4.jpg 540w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s640x960/df244f78de1e92c4fc0cdd2c5cb4123bce1337b1.jpg 640w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s1280x1920/a6a673baced65102608e0cb14d4cc76edb41e16f.jpg 1280w, https://64.media.tumblr.com/3ab7b95cbadc72c30b980b56f3db80d6/db5b1efd59c0da64-ab/s2048x3072/ce62573645be8e888333fe42b4e61eafdaaf5dc4.jpg 1460w",
@@ -279,7 +251,6 @@ const MIKUS = [
     "date": "2024-08-26 18:01:34",
     "post_url": "https://tmblr.co/Z3fYVOgCEbFOii00",
     "continent": "asia",
-    "historical": false,
     "name": "Bhutan",
     "coords": [
       90.435,
@@ -313,7 +284,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/northssketchbook",
     "date": "2024-08-26 20:03:53",
     "continent": "europe",
-    "historical": false,
     "name": "Hungary",
     "coords": [
       23,
@@ -330,7 +300,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/k0ull",
     "date": "2024-08-26 21:13:36",
     "continent": "asia",
-    "historical": false,
     "name": "Karachai",
     "coords": [
       41.783333,
@@ -347,7 +316,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/whyycherry",
     "date": "2024-08-27 01:44:11",
     "continent": "europe",
-    "historical": false,
     "name": "Wales",
     "coords": [
       -3.8,
@@ -364,7 +332,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/fogterror",
     "date": "2024-08-27 04:47:08",
     "continent": "americas",
-    "historical": false,
     "name": "Nova Scotia",
     "coords": [
       -63,
@@ -383,7 +350,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/skronklpus",
     "date": "2024-08-27 06:42:06",
     "continent": "americas",
-    "historical": false,
     "name": "Cuba",
     "coords": [
       -82,
@@ -400,7 +366,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/kraime",
     "date": "2024-08-27 07:41:41",
     "continent": "europe",
-    "historical": false,
     "name": "Breizh",
     "coords": [
       -3,
@@ -417,7 +382,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/andi-tiucs",
     "date": "2024-08-27 10:23:08",
     "continent": "europe",
-    "historical": false,
     "name": "Romania",
     "coords": [
       26,
@@ -434,7 +398,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/lanternist",
     "date": "2024-08-27 10:29:20",
     "continent": "americas",
-    "historical": false,
     "name": "Florida",
     "coords": [
       -82,
@@ -449,7 +412,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/bunberryart",
     "date": "2024-08-27 10:57:45",
     "continent": "europe",
-    "historical": false,
     "name": "Portugal",
     "coords": [
       -8,
@@ -466,7 +428,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/interstella-eyes",
     "date": "2024-08-27 14:57:24",
     "continent": "europe",
-    "historical": false,
     "name": "Germany",
     "coords": [
       11,
@@ -485,7 +446,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/ashyseapancake",
     "date": "2024-08-27 15:01:39",
     "continent": "asia",
-    "historical": false,
     "name": "Hong Kong",
     "coords": [
       114.4,
@@ -499,7 +459,6 @@ const MIKUS = [
     "date": "2024-08-27 15:39:54",
     "post_url": "https://tmblr.co/Z3fYVOgCEM9aii00",
     "continent": "americas",
-    "historical": false,
     "name": "Mexico",
     "coords": [
       -102,
@@ -532,7 +491,6 @@ const MIKUS = [
     "date": "2024-08-27 16:30:09",
     "post_url": "https://tmblr.co/Z3fYVOgCFtAYKy00",
     "continent": "europe",
-    "historical": false,
     "name": "Malta",
     "coords": [
       14.516,
@@ -567,7 +525,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/plutoful",
     "date": "2024-08-27 17:19:40",
     "continent": "europe",
-    "historical": false,
     "name": "Latvia",
     "coords": [
       25,
@@ -582,7 +539,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/emgeneticist",
     "date": "2024-08-27 17:40:19",
     "continent": "europe",
-    "historical": false,
     "name": "England",
     "coords": [
       -1.38,
@@ -601,7 +557,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/amfmrdo",
     "date": "2024-08-27 19:02:10",
     "continent": "oceania",
-    "historical": false,
     "name": "Indonesia",
     "coords": [
       124,
@@ -618,7 +573,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/cocopudu",
     "date": "2024-08-27 19:32:49",
     "continent": "europe",
-    "historical": false,
     "name": "Denmark",
     "coords": [
       10,
@@ -633,7 +587,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/wondersmith39",
     "date": "2024-08-27 22:02:19",
     "continent": "americas",
-    "historical": false,
     "name": "Calgary",
     "coords": [
       -114.07,
@@ -641,6 +594,21 @@ const MIKUS = [
     ],
     "thumb": "https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s75x75_c1/ef9db9bdf671dfc33ebc29443d37eac7685a8b0a.jpg",
     "srcset": "https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s75x75_c1/ef9db9bdf671dfc33ebc29443d37eac7685a8b0a.jpg 75w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s100x200/78e6156641839183191d3aa5443a0f5308da4130.jpg 100w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s250x400/62cea402b2714908ff5f26d128f2ec23a1ee9fc5.jpg 250w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s400x600/4d1be88a68f5bee84cb494195a0240e5d418707b.jpg 400w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s500x750/3ab326e35494915d1fd3cf34ae5f38ababc043d6.jpg 500w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s540x810/bbd8bdcf26d66b6defad37e875052d60619771ce.jpg 540w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s640x960/00b1dc90afed0eb72b2181cf92a1d1edaac6265f.jpg 640w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s1280x1920/e60826f25058b81ac74fd6d2c436b030b40e9d8c.jpg 1280w, https://64.media.tumblr.com/7c57e7d428829d2d013225da10ad9b9b/cdf70e14f9e28989-ba/s2048x3072/0fe90d28f959eee6bccfee3b0e540ce08c01f004.jpg 2048w"
+  },
+  {
+    "id": "760247453042769920",
+    "post_url": "https://tmblr.co/Z3fYVOgCyGVK0e00",
+    "meta": false,
+    "source": "tumblr",
+    "artist": "queenoftheantz",
+    "artist_url": "https://tumblr.com/queenoftheantz",
+    "continent": "europe",
+    "loc": [
+      "sweden"
+    ],
+    "thumb": "https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s75x75_c1/be87a38636897ebd5064e3b13c553e919b4cc906.png",
+    "srcset": "https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s75x75_c1/be87a38636897ebd5064e3b13c553e919b4cc906.png 75w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s100x200/e85e71c00ff1a3a0f105e874c4293e7107273f92.png 100w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s250x400/f61b40667ba1f4fe3c0ceb756b4c1cf943b72e13.png 250w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s400x600/2087b9ed14a97b02ff2ab5fa2b4c845f2bafe194.png 400w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s500x750/f2625b2e698dbe995c31f3f74759071e61e7f878.png 500w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s540x810/b2b742d1401920fdaea83c0b2ee267258e4b7a34.png 540w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s640x960/5d203e7c6d72591a5cab043b9b281411aff1644c.png 640w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s1280x1920/59a7f98cdc97280afbdfb5c159a97e85c0d86fda.png 1280w, https://64.media.tumblr.com/d7a7443f07d543db818138d751055e9a/aab9df72177b5653-8f/s2048x3072/0eaa340b954ff4cc2cdc064b408d341aa127901f.png 2048w",
+    "date": "2024-08-27 22:42:19"
   },
   {
     "id": "760110197108834304",
@@ -652,7 +620,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/nopiedraws",
     "date": "2024-08-27 23:41:22",
     "continent": "europe",
-    "historical": false,
     "name": "Romania",
     "coords": [
       24,
@@ -666,7 +633,6 @@ const MIKUS = [
     "date": "2024-08-28 00:42:11",
     "post_url": "https://tmblr.co/Z3fYVOgCFtaaym00",
     "continent": "europe",
-    "historical": false,
     "name": "Germany",
     "coords": [
       9,
@@ -686,7 +652,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/pip0h",
     "date": "2024-08-28 02:49:52",
     "continent": "americas",
-    "historical": false,
     "name": "Ecuador",
     "coords": [
       -77.5,
@@ -719,7 +684,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/13thdoodle",
     "date": "2024-08-28 05:07:55",
     "continent": "oceania",
-    "historical": false,
     "name": "Indonesia",
     "coords": [
       129,
@@ -734,7 +698,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/xzyumi",
     "date": "2024-08-28 05:32:17",
     "continent": "asia",
-    "historical": false,
     "name": "Tang dynasty",
     "coords": [
       108.858333,
@@ -751,7 +714,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/mintjeru",
     "date": "2024-08-28 05:45:37",
     "continent": "asia",
-    "historical": false,
     "name": "Hong Kong",
     "coords": [
       113.9,
@@ -768,7 +730,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/j11nko",
     "date": "2024-08-28 06:24:53",
     "continent": "europe",
-    "historical": false,
     "name": "Norway",
     "coords": [
       8,
@@ -803,7 +764,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/planefood",
     "date": "2024-08-28 09:08:14",
     "continent": "oceania",
-    "historical": false,
     "name": "Hawkes Bay",
     "coords": [
       176.81,
@@ -817,7 +777,6 @@ const MIKUS = [
     "date": "2024-08-28 10:48:44",
     "post_url": "https://tmblr.co/Z3fYVOgCFzKFKi00",
     "continent": "oceania",
-    "historical": false,
     "name": "Aboriginal",
     "wikipedia": "Aboriginal Australians",
     "coords": [
@@ -867,7 +826,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/counting-the-sleepy-sheep",
     "date": "2024-08-28 12:01:32",
     "continent": "americas",
-    "historical": false,
     "name": "Guatamela",
     "coords": [
       -90.25,
@@ -886,7 +844,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/dizzyisdizzy",
     "date": "2024-08-28 14:38:48",
     "continent": "americas",
-    "historical": false,
     "name": "Brazil",
     "coords": [
       -46,
@@ -901,7 +858,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/sendmeartgifs",
     "date": "2024-08-28 16:20:46",
     "continent": "americas",
-    "historical": false,
     "name": "Canada",
     "coords": [
       -100,
@@ -920,7 +876,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/nomohmoss",
     "date": "2024-08-28 17:07:16",
     "continent": "europe",
-    "historical": false,
     "name": "Minsk",
     "coords": [
       27.56,
@@ -934,7 +889,6 @@ const MIKUS = [
     "date": "2024-08-28 17:07:55",
     "post_url": "https://tmblr.co/Z3fYVOgCFqT7Gu00",
     "continent": "asia",
-    "historical": false,
     "name": "Palestine",
     "coords": [
       35.25,
@@ -952,7 +906,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/mairodia",
     "date": "2024-08-28 17:30:29",
     "continent": "americas",
-    "historical": false,
     "name": "Long Beach",
     "wikipedia": "Long Beach, California",
     "coords": [
@@ -970,7 +923,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/lycorizz-pipis",
     "date": "2024-08-28 18:14:25",
     "continent": "africa",
-    "historical": false,
     "name": "Djibouti",
     "coords": [
       43,
@@ -986,7 +938,6 @@ const MIKUS = [
     "date": "2024-08-28 19:11:46",
     "post_url": "https://tmblr.co/Z3fYVOgCFuwIyy00",
     "continent": "europe",
-    "historical": false,
     "name": "Lyon",
     "coords": [
       4.84,
@@ -1006,7 +957,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/spookedbees",
     "date": "2024-08-28 19:15:08",
     "continent": "americas",
-    "historical": false,
     "name": "Ojibwe",
     "coords": [
       -90.78,
@@ -1020,7 +970,6 @@ const MIKUS = [
     "date": "2024-08-28 20:23:55",
     "post_url": "https://tmblr.co/Z3fYVOgCEMRqia00",
     "continent": "americas",
-    "historical": false,
     "name": "Newfoundland",
     "coords": [
       -59.999167,
@@ -1038,7 +987,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/mendely",
     "date": "2024-08-28 20:41:44",
     "continent": "europe",
-    "historical": false,
     "name": "Vatican City",
     "coords": [
       12.4525,
@@ -1055,7 +1003,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/brbarou",
     "date": "2024-08-28 20:45:03",
     "continent": "europe",
-    "historical": false,
     "name": "Croatia",
     "coords": [
       15.5,
@@ -1086,7 +1033,6 @@ const MIKUS = [
     "date": "2024-08-28 20:58:35",
     "post_url": "https://tmblr.co/Z3fYVOgCFD5Amu00",
     "continent": "europe",
-    "historical": false,
     "name": "Lublin Voivodeship",
     "coords": [
       22.902778,
@@ -1104,7 +1050,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/doddsmountain",
     "date": "2024-08-28 21:07:24",
     "continent": "americas",
-    "historical": false,
     "name": "We Wai Kai Nation",
     "coords": [
       -125.23,
@@ -1123,7 +1068,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/leafyable",
     "date": "2024-08-28 21:22:13",
     "continent": "asia",
-    "historical": false,
     "name": "China",
     "coords": [
       100,
@@ -1137,7 +1081,6 @@ const MIKUS = [
     "date": "2024-08-28 21:29:31",
     "post_url": "https://tmblr.co/Z3fYVOgCEdoOim00",
     "continent": "asia",
-    "historical": false,
     "name": "China",
     "coords": [
       104,
@@ -1157,7 +1100,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/cwawdia",
     "date": "2024-08-28 21:30:52",
     "continent": "europe",
-    "historical": false,
     "name": "Portugal",
     "coords": [
       -8,
@@ -1172,7 +1114,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/wormonastring-doodles",
     "date": "2024-08-28 21:32:36",
     "continent": "americas",
-    "historical": false,
     "name": "Nashville",
     "coords": [
       -86.774,
@@ -1206,7 +1147,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/orannotoren",
     "date": "2024-08-28 21:49:33",
     "continent": "africa",
-    "historical": false,
     "name": "Morocco",
     "coords": [
       -8,
@@ -1223,7 +1163,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/marchmay-may",
     "date": "2024-08-28 21:52:32",
     "continent": "europe",
-    "historical": false,
     "name": "Poland",
     "coords": [
       20,
@@ -1240,7 +1179,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/srowdy",
     "date": "2024-08-28 21:52:42",
     "continent": "americas",
-    "historical": false,
     "name": "Venezuela",
     "coords": [
       -65,
@@ -1255,7 +1193,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/redundantz",
     "date": "2024-08-28 22:01:09",
     "continent": "americas",
-    "historical": false,
     "name": "Canada",
     "coords": [
       -110,
@@ -1274,7 +1211,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/peterokii",
     "date": "2024-08-28 22:11:01",
     "continent": "europe",
-    "historical": false,
     "name": "Normandy",
     "coords": [
       0.17,
@@ -1291,7 +1227,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/castroxche",
     "date": "2024-08-28 22:33:15",
     "continent": "americas",
-    "historical": true,
     "name": "Cuba",
     "coords": [
       -78,
@@ -1308,7 +1243,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/nectarishes",
     "date": "2024-08-28 22:43:15",
     "continent": "asia",
-    "historical": false,
     "name": "Pakistan",
     "coords": [
       70,
@@ -1323,7 +1257,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/general-beer",
     "date": "2024-08-28 22:46:05",
     "continent": "americas",
-    "historical": false,
     "name": "Colorado",
     "coords": [
       -105.5,
@@ -1340,7 +1273,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/kiirowuw",
     "date": "2024-08-28 22:57:26",
     "continent": "europe",
-    "historical": false,
     "name": "Kuban",
     "coords": [
       38.96,
@@ -1357,7 +1289,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/chocochip_trip",
     "date": "2024-08-28 23:03:11",
     "continent": "europe",
-    "historical": false,
     "name": "Southern Italy",
     "coords": [
       15.8,
@@ -1373,7 +1304,6 @@ const MIKUS = [
     "date": "2024-08-28 23:19:26",
     "post_url": "https://tmblr.co/Z3fYVOgCEc4FuW00",
     "continent": "americas",
-    "historical": false,
     "name": "Brazil",
     "coords": [
       -50,
@@ -1390,7 +1320,6 @@ const MIKUS = [
     "date": "2024-08-28 23:28:24",
     "post_url": "https://tmblr.co/Z3fYVOgCEer04i00",
     "continent": "americas",
-    "historical": false,
     "name": "Boston",
     "coords": [
       -71.057778,
@@ -1407,7 +1336,6 @@ const MIKUS = [
     "date": "2024-08-28 23:28:24",
     "post_url": "https://tmblr.co/Z3fYVOgCFDjJGq00",
     "continent": "oceania",
-    "historical": false,
     "name": "Aboriginal",
     "wikipedia": "Aboriginal Australians",
     "coords": [
@@ -1425,7 +1353,6 @@ const MIKUS = [
     "date": "2024-08-28 23:28:24",
     "post_url": "https://tmblr.co/Z3fYVOgCF_NHqW00",
     "continent": "americas",
-    "historical": false,
     "name": "Puerto Rico",
     "coords": [
       -66.5,
@@ -1442,7 +1369,6 @@ const MIKUS = [
     "date": "2024-08-28 23:28:24",
     "post_url": "https://tmblr.co/Z3fYVOgCF-z_ia00",
     "continent": "asia",
-    "historical": true,
     "name": "Japan",
     "coords": [
       138,
@@ -1460,7 +1386,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/krys_applesauce",
     "date": "2024-08-28 23:28:24",
     "continent": "oceania",
-    "historical": false,
     "name": "M\u0101ori culture",
     "coords": [
       173,
@@ -1477,7 +1402,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/botta_kuri_",
     "date": "2024-08-28 23:28:24",
     "continent": "europe",
-    "historical": false,
     "name": "United Kingdom",
     "coords": [
       -3.5,
@@ -1496,7 +1420,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/_Akaba_Reiji_",
     "date": "2024-08-28 23:28:24",
     "continent": "europe",
-    "historical": false,
     "name": "North Macedonia",
     "coords": [
       22,
@@ -1511,7 +1434,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/gynii",
     "date": "2024-08-28 23:33:06",
     "continent": "europe",
-    "historical": false,
     "name": "Hungary",
     "coords": [
       21,
@@ -1542,7 +1464,6 @@ const MIKUS = [
     "date": "2024-08-28 23:42:41",
     "post_url": "https://tmblr.co/Z3fYVOgCFrR_eq00",
     "continent": "americas",
-    "historical": false,
     "name": "New Orleans",
     "coords": [
       -90.078333,
@@ -1562,7 +1483,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/unamusedyams",
     "date": "2024-08-28 23:59:48",
     "continent": "americas",
-    "historical": false,
     "name": "Texas",
     "coords": [
       -99,
@@ -1576,7 +1496,6 @@ const MIKUS = [
     "date": "2024-08-29 00:01:01",
     "post_url": "https://tmblr.co/Z3fYVOgCEbk9am00",
     "continent": "americas",
-    "historical": false,
     "name": "Appalachia",
     "coords": [
       -83.49,
@@ -1594,7 +1513,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/orphetoon",
     "date": "2024-08-29 00:01:01",
     "continent": "americas",
-    "historical": false,
     "name": "Brazil",
     "coords": [
       -54,
@@ -1613,7 +1531,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/officialspec",
     "date": "2024-08-29 00:14:38",
     "continent": "oceania",
-    "historical": false,
     "name": "Far North Queensland",
     "coords": [
       145.2,
@@ -1630,7 +1547,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/totally-original-artist",
     "date": "2024-08-29 00:41:30",
     "continent": "asia",
-    "historical": false,
     "name": "South India",
     "coords": [
       78,
@@ -1647,7 +1563,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/sumechiayuu",
     "date": "2024-08-29 01:38:10",
     "continent": "americas",
-    "historical": false,
     "name": "Haiti",
     "coords": [
       -72.51,
@@ -1664,7 +1579,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/m-oshun",
     "date": "2024-08-29 01:40:52",
     "continent": "asia",
-    "historical": false,
     "name": "Vietnam",
     "coords": [
       108,
@@ -1681,7 +1595,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/mikurinkuwu",
     "date": "2024-08-29 01:49:12",
     "continent": "americas",
-    "historical": false,
     "name": "Chile",
     "coords": [
       -71,
@@ -1713,7 +1626,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/toffins",
     "date": "2024-08-29 03:24:10",
     "continent": "americas",
-    "historical": false,
     "name": "Iowa",
     "coords": [
       -94,
@@ -1733,7 +1645,6 @@ const MIKUS = [
     "loc": [
       "australia"
     ],
-    "historical": false,
     "name": "Australia"
   },
   {
@@ -1744,8 +1655,11 @@ const MIKUS = [
     "artist": "scout-arts",
     "artist_url": "https://tumblr.com/scout-arts",
     "continent": "africa",
-    "loc": [
-      "amazigh"
+    "name": "Amazigh",
+    "wikipedia": "Berbers",
+    "coords": [
+      -5,
+      35
     ],
     "thumb": "https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s75x75_c1/c1db6b51b065bef2129e6f33c5af8d268f4db01e.jpg",
     "srcset": "https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s75x75_c1/c1db6b51b065bef2129e6f33c5af8d268f4db01e.jpg 75w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s100x200/8c18639fd92948223285b6e8a50ea5954fc58492.jpg 100w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s250x400/68d5efc7150d9e7d48c6cf943c223922aeb0ac7a.jpg 250w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s400x600/c599c6e5d4f53e16d0e4743b26cc6708cc41767b.jpg 400w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s500x750/90f6fdd7346e554ade1816d168fa366d383471cb.jpg 500w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s540x810/923b7453c932bb0b0c55102656a18c68c21aba32.jpg 540w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s640x960/b4c095a418b7f415aa3237b3e36cb0ef72f09508.jpg 640w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s1280x1920/77da8805288fc9be8f8584c977a29a3f140f3d8c.jpg 1280w, https://64.media.tumblr.com/7ec2840f1e706eaafb367354907a346c/6addf12e073661f4-b3/s2048x3072/82bcf76c379c752e56fcaa20385d7074618df4bc.jpg 1323w",
@@ -1776,7 +1690,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/UniverseJac",
     "date": "2024-08-29 07:51:29",
     "continent": "americas",
-    "historical": false,
     "name": "Jamaica",
     "coords": [
       -77.4,
@@ -1793,7 +1706,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/killl-ka",
     "date": "2024-08-29 08:13:36",
     "continent": "europe",
-    "historical": false,
     "name": "Moldova",
     "coords": [
       29,
@@ -1810,7 +1722,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/flumelea",
     "date": "2024-08-29 08:20:20",
     "continent": "europe",
-    "historical": false,
     "name": "Seville",
     "coords": [
       -5.99,
@@ -1842,7 +1753,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/t0fuwa",
     "date": "2024-08-29 09:13:53",
     "continent": "asia",
-    "historical": false,
     "name": "Palestine",
     "coords": [
       34.45,
@@ -1859,7 +1769,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/sidecast",
     "date": "2024-08-29 09:50:33",
     "continent": "europe",
-    "historical": false,
     "name": "Hungary",
     "coords": [
       19,
@@ -1876,7 +1785,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/rixypill",
     "date": "2024-08-29 10:46:44",
     "continent": "asia",
-    "historical": false,
     "name": "India",
     "coords": [
       78,
@@ -1938,7 +1846,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/yourboyveggies",
     "date": "2024-08-29 12:26:34",
     "continent": "europe",
-    "historical": false,
     "name": "Sweden",
     "coords": [
       16,
@@ -1955,7 +1862,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/v1x-holo",
     "date": "2024-08-29 13:42:31",
     "continent": "africa",
-    "historical": false,
     "name": "South Africa",
     "coords": [
       25,
@@ -1972,7 +1878,6 @@ const MIKUS = [
     "artist_url": "https://twitter.com/mheaxk",
     "date": "2024-08-29 15:01:35",
     "continent": "americas",
-    "historical": false,
     "name": "Nicaragua",
     "coords": [
       -85.12,
@@ -1989,12 +1894,12 @@ const MIKUS = [
     "artist_url": "https://twitter.com/avogado6",
     "date": "2024-08-29 15:01:35",
     "continent": "world",
-    "historical": false,
     "name": "Hatsune Miku",
     "coords": [
       150,
       25
-    ]
+    ],
+    "shiny": true
   },
   {
     "id": "760176534663331840",
@@ -2037,7 +1942,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/daftpatience",
     "date": "2024-08-29 17:34:44",
     "continent": "americas",
-    "historical": false,
     "name": "Vancouver",
     "coords": [
       -123.11,
@@ -2067,8 +1971,11 @@ const MIKUS = [
     "artist": "slowlylightingupthedarkness",
     "artist_url": "https://tumblr.com/slowlylightingupthedarkness",
     "continent": "asia",
-    "loc": [
-      "malayali"
+    "name": "Malayali",
+    "wikipedia": "Malayalis",
+    "coords": [
+      75.28,
+      12.02
     ],
     "thumb": "https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s75x75_c1/62caddcfc42011af1fcad28d122496aec8d9eb40.png",
     "srcset": "https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s75x75_c1/62caddcfc42011af1fcad28d122496aec8d9eb40.png 75w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s100x200/d980408b31492812f7dadae8864fedbc44d94aa2.png 100w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s250x400/1b593fab0138391ecc06cb05b1ed56f17eed8112.png 250w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s400x600/2104ed15553ffbb7c0ff325b05eb4b8ac025139b.png 400w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s500x750/e492adae2c7ea94659588a7e63de7ed3dbb4323d.png 500w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s540x810/eda237ccef0d39d3aff91186ddd0c6793affea9d.png 540w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s640x960/176e52f7f1208ba307862912c817579e769b62bd.png 640w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s1280x1920/211c3ffb9cb2b9138be2b028baa44d1e175f04a4.png 1280w, https://64.media.tumblr.com/f504e33c96b59ff66f6a5206a8c27a10/b2774128812c6551-82/s2048x3072/cff7b558e2d8b1046fe433b82ff14da3297451f0.png 2000w",
@@ -2084,7 +1991,6 @@ const MIKUS = [
     "artist_url": "https://tumblr.com/nuukeds",
     "date": "2024-08-29 18:56:39",
     "continent": "europe",
-    "historical": false,
     "name": "Austria",
     "coords": [
       13.33,
@@ -2115,13 +2021,47 @@ const MIKUS = [
     "artist": "spookberry",
     "artist_url": "https://tumblr.com/spookberry",
     "continent": "americas",
-    "loc": [
-      "usa",
-      "oregon"
+    "name": "Oregon",
+    "coords": [
+      -121,
+      44
     ],
     "thumb": "https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s75x75_c1/bbe26360e329209aa956933bfea79674ed8581eb.png",
     "srcset": "https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s75x75_c1/bbe26360e329209aa956933bfea79674ed8581eb.png 75w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s100x200/125d49835ae17dfcb7db94d11e1b381af7620d83.png 100w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s250x400/e546bcd9c2272098a94393e465a621a334f42237.png 250w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s400x600/f06e2695aeaf84f6436eb540576af2145ba154c2.png 400w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s500x750/53a65d350825b48672e4c51fd482c99338703577.png 500w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s540x810/fa22a927a748df781bb66cb2ef58196105bb4fb3.png 540w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s640x960/381ee37de28ce74cfb8abb8d424fa88c0a9074ee.png 640w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s1280x1920/5827f13c686be83c3dae6b6aa4055cd2426306ed.png 1280w, https://64.media.tumblr.com/581267445d630721e8c47c7e9ee2fd54/652579ffa6e3c6b9-0a/s2048x3072/f013b289df249e8bfb83e425156f06dfaaed3ccb.png 1601w",
     "date": "2024-08-29 19:56:11"
+  },
+  {
+    "id": "760253236625260544",
+    "post_url": "https://tmblr.co/Z3fYVOgCzafiOy00",
+    "meta": false,
+    "source": "tumblr",
+    "artist": "alleesaur",
+    "artist_url": "https://tumblr.com/alleesaur",
+    "continent": "world",
+    "name": "Blue Crab",
+    "shiny": true,
+    "coords": [
+      -90,
+      25
+    ],
+    "thumb": "https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s75x75_c1/659167a26291e91cdb921e35a2472f36e8daa027.png",
+    "srcset": "https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s75x75_c1/659167a26291e91cdb921e35a2472f36e8daa027.png 75w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s100x200/927a4dff635c78eabd31dd2af060f2e98a9c0d89.png 100w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s250x400/898e4cc7436c99ca107a6e58cb5fbb9bee881d74.png 250w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s400x600/3308a37b60d33fbfdeeb6616bc7b53f0fcae13be.png 400w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s500x750/dfc5a3dfe9928862c4f684f39f1f2f94c2026941.png 500w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s540x810/c6608b4f1b127622d6132c79e2f1444a2a2f5999.png 540w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s640x960/168c5a3b885ee19a1f63978c5038f0a602c6e74b.png 640w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s1280x1920/577b23434d113e2aedbdcc8d33f2d70b529e5924.png 1280w, https://64.media.tumblr.com/9dd0aec272592923199ce5be9daf92bc/4c75516e0999d876-4b/s2048x3072/44176f0165247ce0bb6a5933ac8abf0e72c3a979.png 1870w",
+    "date": "2024-08-29 20:09:45"
+  },
+  {
+    "id": "760253272257904640",
+    "post_url": "https://tmblr.co/Z3fYVOgCzbAuGi00",
+    "meta": false,
+    "source": "tumblr",
+    "artist": "will1",
+    "artist_url": "https://tumblr.com/will1",
+    "continent": "americas",
+    "loc": [
+      "florida"
+    ],
+    "thumb": "https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s75x75_c1/9ad635d4da473dd923f26a34606dd014232f2938.png",
+    "srcset": "https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s75x75_c1/9ad635d4da473dd923f26a34606dd014232f2938.png 75w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s100x200/6cf18e74c9ad012e8d23b89ea784c208d0cdf1b6.png 100w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s250x400/e8a64a55992309168a2f4995861baea7fc17222a.png 250w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s400x600/d48c7362afc2be9a1f3c16006eeb35200160f948.png 375w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s500x750/65f36b0e46a7fcaa7cd4915d447eda72ead1fea8.png 469w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s540x810/d2a7126fc98acaa088be6e9b8592c23a916c7ab0.png 506w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s640x960/aa3b9813db441f48a5a19aa3d076da50310e2be8.png 600w, https://64.media.tumblr.com/71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s1280x1920/afcd99cad3d7be5b7b65568c2d334a61278f390f.png 1000w",
+    "date": "2024-08-29 22:24:10"
   },
   {
     "id": "760187813725634560",
@@ -2131,8 +2071,10 @@ const MIKUS = [
     "artist": "maggotbone",
     "artist_url": "https://tumblr.com/maggotbone",
     "continent": "americas",
-    "loc": [
-      "wisconsin"
+    "name": "Wisconsin",
+    "coords": [
+      -90,
+      44
     ],
     "thumb": "https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s75x75_c1/79e4b18d37e40bd232f9881fe496504adc22eb88.jpg",
     "srcset": "https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s75x75_c1/79e4b18d37e40bd232f9881fe496504adc22eb88.jpg 75w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s100x200/03473bfe1b29239071face9178819beba3d51820.jpg 100w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s250x400/673bc529c7ae76dd11057c73953ed51c3512680f.jpg 250w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s400x600/4dd65541c4720a99e34372d49ebcc470906f9735.jpg 400w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s500x750/a6632de86156bda031af1dded133be8bfd93e0fd.jpg 500w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s540x810/212337f04cd191b66a68058caf570a45cc4f8947.jpg 540w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s640x960/c92c5c0aba2bd2382392945535916dfebb96cebf.jpg 640w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s1280x1920/6c790072668e53802f98c2cf8a5f8fc24d1535d3.jpg 1280w, https://64.media.tumblr.com/9fe6de9af9f6f5f9cc58712cc42907b3/8b35305699bdaeb4-21/s2048x3072/e9679754afea16372c479a14eaa53c0eeca35c89.jpg 1607w",
@@ -2229,6 +2171,22 @@ const MIKUS = [
     "date": "2024-08-30 13:53:08"
   },
   {
+    "id": "760250125360726016",
+    "post_url": "https://tmblr.co/Z3fYVOgCytO6ae00",
+    "meta": false,
+    "source": "tumblr",
+    "artist": "knic_toons",
+    "artist_url": "https://tumblr.com/knic_toons",
+    "continent": "americas",
+    "loc": [
+      "usa",
+      "midwest"
+    ],
+    "thumb": "https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s75x75_c1/29cf7afaa9b31d7b638a306455769eac0de7a899.jpg",
+    "srcset": "https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s75x75_c1/29cf7afaa9b31d7b638a306455769eac0de7a899.jpg 75w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s100x200/85294c70f80f3095f653cb54c4b97b7dd3eff01b.jpg 100w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s250x400/d7434fff2ce58c3aae7b2fbffe3d3585f7384945.jpg 250w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s400x600/0a871f5c29c91d9052a94a1ecd2f299b429284c7.jpg 400w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s500x750/e5e7bf5535266bdd9131fd148d20307763c87b03.jpg 500w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s540x810/2eb6a4768f5dadb891ec8e929cb8f9bcfebbfe2b.jpg 540w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s640x960/cc1c1fb2f2080aff8da30ce40b1d569898ce5c18.jpg 640w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s1280x1920/4960d23bb4c5215e141e373932f74a452605daa4.jpg 1280w, https://64.media.tumblr.com/945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s2048x3072/80727ce442c5687f64ff0a7036b852f178daf30a.jpg 1540w",
+    "date": "2024-08-30 13:55:58"
+  },
+  {
     "id": "760244703347294208",
     "post_url": "https://tmblr.co/Z3fYVOgCxeUTOq00",
     "meta": false,
@@ -2236,8 +2194,10 @@ const MIKUS = [
     "artist": "kujikawaiiart",
     "artist_url": "https://tumblr.com/kujikawaiiart",
     "continent": "europe",
-    "loc": [
-      "ireland"
+    "name": "ireland",
+    "coords": [
+      -7.5,
+      53.4
     ],
     "thumb": "https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s75x75_c1/c89150da3dcacab3843bd95ff3610e9e8d5f5393.png",
     "srcset": "https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s75x75_c1/c89150da3dcacab3843bd95ff3610e9e8d5f5393.png 75w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s100x200/e782b53094316ae83a8b270cd5b055f5f4310980.png 100w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s250x400/36e00065849ad524432fca70da4c2d434ea1c3c1.png 250w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s400x600/ae976cdcf586aff08974297dc026e07bd722f8d2.png 400w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s500x750/33c098a043be34072fa1c800443f7d5a7944fab1.png 500w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s540x810/4414954181c2907eacbf265f5382777b3b309f0f.png 540w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s640x960/770596e84edab2e59139079c4cdf32a8d624d0c4.png 640w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s1280x1920/2e12b81cb2571cddf0a6a048325885ce5dffb720.png 1280w, https://64.media.tumblr.com/423adf2720cb1dd651dae7b4cdc126ed/12c3f5e09604a3db-71/s2048x3072/21f1a21af34e0cdc7c9dcec75270b6cde24659ff.png 1956w",

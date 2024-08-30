@@ -35,6 +35,8 @@ map.on('load', () => {
     attribute(map, "© the respective artists")
     shuffle(MIKUS);
 
+    // // // Zooming makes mikus slightly larger
+
     const mikustyle = document.createElement('style');
     document.querySelector('head').appendChild(mikustyle)
     mikustyle.innerText = "";
@@ -42,11 +44,12 @@ map.on('load', () => {
         let z = map.getZoom();
         w = 3 ** (z / 5 + 1);
         // console.log(z, w)
-        mikustyle.innerText = `.miku {--miku-width: ${w}em !important;}`
+        mikustyle.innerText = `.miku {--miku-zoom-width: ${w}em !important;}`
     }
     setSize()
     map.on('zoom', setSize)
 
+    // anim setup
     const ANIMATION_TOTAL_SECONDS = 2.5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
@@ -72,7 +75,10 @@ map.on('load', () => {
         // create a DOM element for the marker
         const div = $('div');
         div.id = `miku${miku.id}`;
-        div.className = 'miku';
+        div.classList.add('miku');
+        if (miku.shiny) {
+            div.classList.add('shiny')
+        }
 
         const a = $('a')
         a.className = 'summary'

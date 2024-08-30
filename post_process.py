@@ -6,7 +6,7 @@ from helpers import load_mikus, save_mikus
 
 mikus = load_mikus()
 for m in mikus:
-    del m['collated_at']
+    m.pop('collated_at', None)
 
     if m['meta']:
         continue
