@@ -4,10 +4,10 @@ const do_animate = true;
 
 const KEY = "7u4GIZgEyI3d1WRGQSI0";
 var map = new maplibregl.Map({
-    container: 'map', // container id
+    container: 'map',
     style: `https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=${KEY}`,
-    center: [0, 0], // starting position [lng, lat]
-    zoom: 1 // starting zoom
+    center: [30, 0], // xy
+    zoom: 1
 });
 
 function attribute(map, text, url) {
@@ -54,18 +54,20 @@ map.on('load', () => {
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
     let N = 0
-    MIKUS.forEach(miku => {
-        if (miku.meta) return;
+    let showcase_i = 0;
+    MIKUS.forEach((miku, i) => {
         if (!miku.coords)
-            return console.log(miku.id, "no coords")
-        if (!miku.name)
-            console.log(miku.id, "no name")
+            return;
 
+        if (miku.name == "Brazil") {
+            // always start the showcase where the trend started!
+            console.log(i, miku.id)
+            showcase_i = i - 1;
+        }
         N++;
 
-        const $ = x => document.createElement(x);
-
         // // // MIKU ELEMENT
+        const $ = x => document.createElement(x);
 
         // div.miku
         //   a.summary
@@ -132,13 +134,11 @@ map.on('load', () => {
     count.innerText = N;
     count.classList.remove('transparent');
 
-    let showcase_i = 0;
     let get = i => document.getElementById("miku" + MIKUS[i].id);
     let inc = () => showcase_i = (showcase_i + 1) % MIKUS.length;
     // we have to skip meta posts
     let next = () => { inc(); while (!get(showcase_i)) inc(); }
 
-    next()
     function new_showcase() {
         // console.log(showcase_i, get(showcase_i))
         get(showcase_i).classList.remove('hover')
