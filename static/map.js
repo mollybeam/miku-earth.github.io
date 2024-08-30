@@ -1,4 +1,4 @@
-const do_animate = false;
+const do_animate = true;
 
 // yes i styled my own map. it was fun and hopefully makes for a nicer map experience!
 
