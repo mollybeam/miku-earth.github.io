@@ -133,7 +133,7 @@ const MIKUS = [
     "name": "Antarctica",
     "coords": [
       0,
-      -85
+      -82
     ]
   },
   {
