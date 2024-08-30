@@ -9,7 +9,6 @@ client = Client.from_keys('.keys', '.cache')
 
 class Miku(TypedDict):
     id: str
-    collated_at: str  # timestamp
     post_url: str  # short url
 
     meta: bool
@@ -65,7 +64,7 @@ def load_mikus() -> list[Miku]:
         return json.loads(MIKUS.read_text().removeprefix(JS_HEADER))
     return []
 
-def save_mikus(mikus: list[Miku], sort_key: str = 'collated_at'):
+def save_mikus(mikus: list[Miku], sort_key: str = 'date'):
     if sort_key:
         mikus.sort(key=lambda x: x.get(sort_key, ''))
     MIKUS.write_text(JS_HEADER + json.dumps(mikus, indent=2))

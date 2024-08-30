@@ -35,23 +35,6 @@ map.on('load', () => {
     attribute(map, "© the respective artists")
     shuffle(MIKUS);
 
-    // map
-    //     .addSource('areas', {
-    //         type: 'vector',
-    //         url: `https://api.maptiler.com/data/ae1502a2-aa65-426a-8c80-6fa0685e0cd2/features.json?key=${KEY}`
-    // })
-    // .addLayer({
-    //     id: 'areas',
-    //     type: 'fill',
-    //     source: 'areas',
-    //     'source-layer': 'features',
-    //     paint: {
-    //         'fill-color': '#888888',
-    //         'fill-opacity': 0.5
-    //     },
-    //     // filter: ['==', ['get', 'name'], 'moravia1']
-    // }, "")
-
     const mikustyle = document.createElement('style');
     document.querySelector('head').appendChild(mikustyle)
     mikustyle.innerText = "";
@@ -96,7 +79,6 @@ map.on('load', () => {
         a.target = '_blank'
         a.rel = 'nofollow'
         a.href = miku.post_url
-        a.title = `${miku.name} / @${miku.artist}`
         div.appendChild(a)
 
         const img = $('img')
@@ -126,29 +108,10 @@ map.on('load', () => {
         </div>
         `
 
-
-
-
-
         if (do_animate) {
             let delay = N * ANIM_T
             div.style = `opacity: 0; animation: fade-in 2.5s ${delay}s forwards`
         }
-
-
-
-        // img.srcset = miku.srcset
-        // img.style = `width: 4em !important;`
-
-        // <article>
-        // ${miku.artist}
-        // </article>
-
-        // div.addEventListener('mouseover', () => {
-        //     console.log(miku);
-        //     // img.srcset = miku.srcset;
-        //     // img.width = '500px';
-        // });
 
         let marker = new maplibregl.Marker({
             element: div,
