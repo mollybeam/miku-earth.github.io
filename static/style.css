@@ -91,6 +91,10 @@ h1 {
   --miku-width: calc(var(--miku-zoom-width) / 3);
 }
 
+.miku.hover {
+  --border: #3dbdd5
+}
+
 .miku .preview,
 .miku article,
 .miku article:before {
@@ -115,11 +119,13 @@ h1 {
 
 /* TODO: mobile sizing */
 
-.miku:hover {
+.miku:hover,
+#map:not(:has(.miku:hover)) .miku.hover {
   z-index: 100;
 }
 
-.miku:hover img {
+.miku:hover img,
+#map:not(:has(.miku:hover)) .miku.hover img {
   z-index: 101;
 }
 
@@ -143,7 +149,8 @@ h1 {
   font-size: calc(var(--miku-width) / 3);
 }
 
-.miku:hover article {
+.miku:hover article,
+#map:not(:has(.miku:hover)) .miku.hover article {
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   display: unset;

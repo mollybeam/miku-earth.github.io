@@ -131,4 +131,19 @@ map.on('load', () => {
     // (for timing purposes that's a trivial difference though!)
     count.innerText = N;
     count.classList.remove('transparent');
+
+    let showcase_i = 0;
+    let get = i => document.getElementById("miku" + MIKUS[i].id);
+    let inc = () => showcase_i = (showcase_i + 1) % MIKUS.length;
+    // we have to skip meta posts
+    let next = () => { inc(); while (!get(showcase_i)) inc(); }
+
+    next()
+    function new_showcase() {
+        // console.log(showcase_i, get(showcase_i))
+        get(showcase_i).classList.remove('hover')
+        next()
+        get(showcase_i).classList.add('hover')
+    }
+    window.setInterval(new_showcase, 5_000)
 })
