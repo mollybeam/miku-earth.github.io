@@ -58,6 +58,8 @@ map.on('load', () => {
     MIKUS.forEach((miku, i) => {
         if (!miku.coords)
             return;
+        if (!miku.coords.length)
+            return;
 
         if (miku.name == "Brazil") {
             // always start the showcase where the trend started!
@@ -89,9 +91,12 @@ map.on('load', () => {
         a.href = miku.post_url
         div.appendChild(a)
 
+        const TUMBLR_MEDIA = 'https://64.media.tumblr.com/'
+        let prefix = miku.thumb.startsWith('https://') ? "" : TUMBLR_MEDIA;
+
         const img = $('img')
         img.classList.add('preview')
-        img.src = miku.thumb
+        img.src = prefix + miku.thumb;
         a.appendChild(img)
 
         const article = $('article');

@@ -11,6 +11,8 @@ for m in mikus:
         m.pop('meta')
 
     m.pop('collated_at', None)
+    m.pop('source', None)
+    m.pop('continent', None)
 
     loc = ''
     if 'loc' in m:

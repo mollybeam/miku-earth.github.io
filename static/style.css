@@ -208,7 +208,6 @@ article p {
   transition-behavior: allow-discrete;
   display: none;
   opacity: 0;
-  /* animation: vanish 1s; */
 }
 
 
@@ -217,7 +216,6 @@ article p {
   display: block;
   opacity: 1;
 
-  /* animation: appear 1s forwards; */
   @starting-style {
     opacity: 0;
     /* display: none; */

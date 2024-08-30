@@ -39,8 +39,6 @@ for post in posts:
 
     miku.setdefault('artist', post['trail'][-1]['blog']['name'])
 
-    srcset_raw = Post.get_first_image(post)
-    srcset = get_srcset(srcset_raw)
     dt = Post.get_date(client.get_root_post(post))
 
     miku.update(process_tags(post['tags']))
@@ -52,9 +50,15 @@ for post in posts:
         case 'twitter':
             artist_url = f'https://twitter.com/{miku['artist']}'
 
+    TUMBLR_MEDIA = 'https://64.media.tumblr.com/'
+    srcset_raw = Post.get_first_image(post)
+    srcset = get_srcset(srcset_raw)
+
+    thumb = srcset.get(75).replace(TUMBLR_MEDIA, '')
+    srcset_raw = srcset_raw.replace(srcset.get(75) + ' 75w, ', '').replace(TUMBLR_MEDIA, '')
 
     miku.update({
-        'thumb': srcset.get(75),
+        'thumb': thumb,
         'srcset': srcset_raw,
         'date': str(dt),
     })

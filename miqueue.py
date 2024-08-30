@@ -19,6 +19,6 @@ for post in client.get_posts("miku-earth", queue=True):
 
     url = post['id_string']
     source = miku['source']
-    loc = ', '.join(miku['loc'])
-    
-    print(f'{page:2} {miku['continent']:10} {loc}')
+    loc = ', '.join(miku['loc']) if 'loc' in miku else miku['name']
+
+    print(f'{page:2} {loc}')
