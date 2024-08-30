@@ -42,7 +42,8 @@ map.on('load', () => {
     mikustyle.innerText = "";
     let setSize = () => {
         let z = map.getZoom();
-        w = 3 ** (z / 5 + 1);
+        // TODO: smaller miku, but gets larger on hover?
+        w = Math.min(3 * 3 ** (z / 3), 12);
         // console.log(z, w)
         mikustyle.innerText = `.miku {--miku-zoom-width: ${w}em !important;}`
     }
