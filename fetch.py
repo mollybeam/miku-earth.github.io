@@ -1,11 +1,11 @@
-# Fetches static/mikus.json from tumblr.
+"""
+Fetch published mikus and post them.
+"""
 
 from datetime import datetime
-import json
-from pathlib import Path
 
 from pytumblr2 import Post, get_srcset
-from helpers import client, load_mikus, save_mikus
+from helpers import client, load_mikus, process_tags, save_mikus
 
 MIKUS_SEEN = dict()
 
@@ -38,36 +38,19 @@ for post in posts:
     if miku['meta']:
         continue
 
-    source = 'tumblr'
-    match tags.pop():
-        case '(from twitter)':
-            source = 'twitter'
-        case not_a_source:
-            tags.append(not_a_source)
-    
-    continent, *loc, artist = tags
-    match source:
-        case 'tumblr':
-            artist_url = f'https://tumblr.com/{artist}'
-        case 'twitter':
-            artist_url = f'https://twitter.com/{artist}'
-
-    dt = Post.get_date(client.get_root_post(post))
+    miku.update(process_tags(post['tags']))
 
     srcset_raw = Post.get_first_image(post)
     srcset = get_srcset(srcset_raw)
+    dt = Post.get_date(client.get_root_post(post))
 
     miku.update({
         'thumb': srcset.get(75),
         'srcset': srcset_raw,
-        'artist': artist,
-        'artist_url': artist_url,
         'date': str(dt),
-        'continent': continent,
-        'loc': loc,
     })
 
-    print(f'{artist:20} {dt} {continent:10} {loc}')
+    print(f"{miku['artist']:20} {dt} {miku['continent']:10} {miku['loc']}")
 
 N_NEW = len(mikus) - N_ALREADY
 print(f'{N_ALREADY} + {N_NEW} new = {len(mikus)} total')

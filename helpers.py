@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import Literal, TypedDict
 
 import json
 from pathlib import Path
@@ -15,11 +15,14 @@ class Miku(TypedDict):
     meta: bool
 
     # if not meta:
+    source: Literal['tumblr', 'twitter']
+    artist_url: str
+
     date: str
     thumb: str  # url
     srcset: str
     artist: str
-    artist_url: str
+
     continent: str
     loc: list[str]
 
@@ -29,6 +32,31 @@ class Miku(TypedDict):
     name: str
     wikipedia: str
 
+
+def process_tags(tags: list[str]) -> Miku:
+    "extract partial info from tags"
+
+    source = 'tumblr'
+    match tags.pop():
+        case '(from twitter)':
+            source = 'twitter'
+        case not_a_source:
+            tags.append(not_a_source)
+
+    continent, *loc, artist = tags
+    match source:
+        case 'tumblr':
+            artist_url = f'https://tumblr.com/{artist}'
+        case 'twitter':
+            artist_url = f'https://twitter.com/{artist}'
+
+    return {
+        'source': source,
+        'artist': artist,
+        'artist_url': artist_url,
+        'continent': continent,
+        'loc': loc,
+    }
 
 MIKUS = Path('static/mikus.js')
 JS_HEADER = 'const MIKUS = '
