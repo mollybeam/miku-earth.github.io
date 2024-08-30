@@ -5,11 +5,9 @@ Post-processing, imbuing e.g. descriptions and other useful metadata.
 from helpers import load_mikus, save_mikus
 
 mikus = load_mikus()
+mikus = [m for m in mikus if not m['meta']]
 for m in mikus:
     m.pop('collated_at', None)
-
-    if m['meta']:
-        continue
 
     loc = ''
     if 'loc' in m:

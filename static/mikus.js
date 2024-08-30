@@ -1,55 +1,5 @@
 const MIKUS = [
   {
-    "id": "760046169910099968",
-    "post_url": "https://tmblr.co/Z3fYVOgCEVRoOq00",
-    "meta": true
-  },
-  {
-    "id": "760090447284682752",
-    "post_url": "https://tmblr.co/Z3fYVOgCOZmJaa00",
-    "meta": true
-  },
-  {
-    "id": "760090456894881792",
-    "post_url": "https://tmblr.co/Z3fYVOgCOZvGOa00",
-    "meta": true
-  },
-  {
-    "id": "760090464051396608",
-    "post_url": "https://tmblr.co/Z3fYVOgCOZ-wyW00",
-    "meta": true
-  },
-  {
-    "id": "760107727586492416",
-    "post_url": "https://tmblr.co/Z3fYVOgCSVDrqe00",
-    "meta": true
-  },
-  {
-    "id": "760149207259758592",
-    "post_url": "https://tmblr.co/Z3fYVOgCbwqp0q00",
-    "meta": true
-  },
-  {
-    "id": "760200786625118208",
-    "post_url": "https://tmblr.co/Z3fYVOgCnfPqmq00",
-    "meta": true
-  },
-  {
-    "id": "760226730926571520",
-    "post_url": "https://tmblr.co/Z3fYVOgCtYyLee00",
-    "meta": true
-  },
-  {
-    "id": "760261701113446400",
-    "post_url": "https://tmblr.co/Z3fYVOgC-VqtCu00",
-    "meta": true
-  },
-  {
-    "id": "760261527698817024",
-    "post_url": "https://tmblr.co/Z3fYVOgC-TJMua00",
-    "meta": true
-  },
-  {
     "id": "760184301654622208",
     "post_url": "https://tmblr.co/Z3fYVOgCjvW-yy00",
     "meta": false,
