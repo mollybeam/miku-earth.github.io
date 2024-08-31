@@ -63,6 +63,7 @@ h1 {
   text-align: center;
   z-index: -10;
   opacity: 0.3;
+  animation: fade-in 10s forwards;
 }
 
 /* Miku element */
