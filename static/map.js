@@ -10,6 +10,10 @@ var map = new maplibregl.Map({
     zoom: 1
 });
 
+const $space = () => document.createTextNode(" ");
+const $ = x => document.createElement(x);
+let get = i => document.getElementById("miku" + MIKUS[i].id);
+
 function attribute(map, text, url) {
     let a = document.createElement(url ? 'a' : 'span')
     a.innerText = ' ' + text
@@ -19,7 +23,7 @@ function attribute(map, text, url) {
     }
     let attrib = map.getContainer()
         .querySelector('.maplibregl-ctrl-attrib-inner')
-    attrib.appendChild(document.createTextNode(" "))
+    attrib.appendChild($space())
     attrib.appendChild(a)
 }
 function shuffle(array) {
@@ -31,6 +35,7 @@ function shuffle(array) {
     return array;
 }
 
+let showcase_i = 0;
 map.on('load', () => {
     attribute(map, "© the respective artists")
     shuffle(MIKUS);
@@ -54,7 +59,6 @@ map.on('load', () => {
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
     let N = 0
-    let showcase_i = 0;
     MIKUS.forEach((miku, i) => {
         if (!miku.coords)
             return;
@@ -68,7 +72,6 @@ map.on('load', () => {
         N++;
 
         // // // MIKU ELEMENT
-        const $ = x => document.createElement(x);
 
         // div.miku
         //   a.summary
@@ -140,7 +143,6 @@ map.on('load', () => {
     count.innerText = N;
     count.classList.remove('transparent');
 
-    let get = i => document.getElementById("miku" + MIKUS[i].id);
     let inc = () => showcase_i = (showcase_i + 1) % MIKUS.length;
     // we have to skip meta posts
     let next = () => { inc(); while (!get(showcase_i)) inc(); }
