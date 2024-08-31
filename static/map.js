@@ -76,12 +76,15 @@ map.on('load', () => {
         //   article
 
         // create a DOM element for the marker
+        const container = $('div');
+
         const div = $('div');
         div.id = `miku${miku.id}`;
         div.classList.add('miku');
         if (miku.shiny) {
             div.classList.add('shiny')
         }
+        container.appendChild(div)
 
         const a = $('a')
         a.className = 'summary'
@@ -126,8 +129,7 @@ map.on('load', () => {
         }
 
         let marker = new maplibregl.Marker({
-            element: div,
-            anchor: 'bottom',
+            element: container,
         })
             .setLngLat(miku.coords)
             .addTo(map);

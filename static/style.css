@@ -84,6 +84,7 @@ h1 {
 
   --bg: rgba(256, 256, 256, 75%);
   --border: black;
+  margin-top: -50%;
 }
 
 .miku.shiny {
