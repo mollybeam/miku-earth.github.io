@@ -371,7 +371,7 @@ const MIKUS = [
     "name": "Florida",
     "coords": [
       -82,
-      28
+      27
     ]
   },
   {
@@ -885,11 +885,11 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgDGEnxGa00",
     "meta": false,
     "artist": "sasswonfp",
-    "loc": [
-      "chicago"
-    ],
     "name": "Chicago",
-    "coords": [-87.63, 41.88],
+    "coords": [
+      -87.63,
+      41.88
+    ],
     "thumb": "a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s75x75_c1/d5d6775dae75fe14e5dfcb03237dc4855faeceeb.png",
     "srcset": "a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s100x200/815e515d9a5f4675b2c495ac67dbe83bf9fd8dc9.png 100w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s250x400/c46749164c9db64be8fa1727e9b2779beac2c159.png 250w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s400x600/65a62a503c4ac958ccefdc944ef8ec65c0e055e4.png 400w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s500x750/4c96a115230abe4778f3dcc6382b600fed3ef708.png 500w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s540x810/8e60680ef6303acdd686218c8a4edab67ebd4a50.png 540w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s640x960/2d5aa5f4ab518d555da90a5352fcd902c2e78904.png 640w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s1280x1920/473b6a9da503d53fc60c290d24a38cf52b730382.png 1280w, a7ff040f7a865dc278653a8ff7f7676e/34b48a4ed785bf9d-28/s2048x3072/e15cf163d5625f8e83fa5a9e348d96b39ac23c05.png 1854w",
     "date": "2024-08-28 17:32:31"
@@ -1670,8 +1670,10 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgDIC45Oq00",
     "meta": false,
     "artist": "grave-omen",
-    "loc": [
-      "scotland"
+    "name": "Scotland",
+    "coords": [
+      -4,
+      57
     ],
     "thumb": "f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s75x75_c1/3c10e0c6cccc1e993bac81004dc57b3934981d45.png",
     "srcset": "f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s100x200/7a6cac19b55f9d19dd31bede54765507efb1c8e2.png 100w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s250x400/3023366d06aa52e084d1050ab04e0487132ce21d.png 250w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s400x600/8b5c2942ab8e3e7c580c4852445f8e56d803bae1.png 400w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s500x750/983ef5dafb2cc990831a3371c4665a5706be39fd.png 500w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s540x810/72babc7176a044e198c5f85db61433c14c677a23.png 540w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s640x960/21f570918dd7c451f195e671a8fada2f83afc5d3.png 640w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s1280x1920/f535653661f66d9c9131a98da455dd4e9bd979f3.png 1280w, f4b49be361c6d7566cb3d925d7727e38/1ea8b52eafcce1bf-8c/s2048x3072/392654cee1ae23ae3639744930336993846dc836.png 1765w",
@@ -2030,8 +2032,10 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgCzbAuGi00",
     "artist": "will1",
     "artist_url": "https://tumblr.com/will1",
-    "loc": [
-      "florida"
+    "name": "Florida",
+    "coords": [
+      -82,
+      30
     ],
     "thumb": "71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s75x75_c1/9ad635d4da473dd923f26a34606dd014232f2938.png",
     "srcset": " 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s100x200/6cf18e74c9ad012e8d23b89ea784c208d0cdf1b6.png 100w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s250x400/e8a64a55992309168a2f4995861baea7fc17222a.png 250w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s400x600/d48c7362afc2be9a1f3c16006eeb35200160f948.png 375w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s500x750/65f36b0e46a7fcaa7cd4915d447eda72ead1fea8.png 469w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s540x810/d2a7126fc98acaa088be6e9b8592c23a916c7ab0.png 506w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s640x960/aa3b9813db441f48a5a19aa3d076da50310e2be8.png 600w, 71157c5fe732b42a9b8a4859a1439fe3/3790d4c7e5adc96b-c6/s1280x1920/afcd99cad3d7be5b7b65568c2d334a61278f390f.png 1000w",
@@ -2229,9 +2233,11 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgCytO6ae00",
     "artist": "knic_toons",
     "artist_url": "https://tumblr.com/knic_toons",
-    "loc": [
-      "usa",
-      "midwest"
+    "name": "Midwest",
+    "wikipedia": "Midwestern United States",
+    "coords": [
+      -94,
+      44
     ],
     "thumb": "945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s75x75_c1/29cf7afaa9b31d7b638a306455769eac0de7a899.jpg",
     "srcset": " 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s100x200/85294c70f80f3095f653cb54c4b97b7dd3eff01b.jpg 100w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s250x400/d7434fff2ce58c3aae7b2fbffe3d3585f7384945.jpg 250w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s400x600/0a871f5c29c91d9052a94a1ecd2f299b429284c7.jpg 400w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s500x750/e5e7bf5535266bdd9131fd148d20307763c87b03.jpg 500w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s540x810/2eb6a4768f5dadb891ec8e929cb8f9bcfebbfe2b.jpg 540w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s640x960/cc1c1fb2f2080aff8da30ce40b1d569898ce5c18.jpg 640w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s1280x1920/4960d23bb4c5215e141e373932f74a452605daa4.jpg 1280w, 945bf3b602a58a16739a2a8b89f7f18d/56ffc0d20f6f667c-41/s2048x3072/80727ce442c5687f64ff0a7036b852f178daf30a.jpg 1540w",
@@ -2782,12 +2788,28 @@ const MIKUS = [
     "date": "2024-08-31 17:28:29"
   },
   {
+    "id": "760362724573298688",
+    "post_url": "https://tmblr.co/Z3fYVOgDMTwIey00",
+    "meta": false,
+    "artist": "selkieflesh",
+    "name": "Maine",
+    "coords": [
+      -69,
+      45
+    ],
+    "thumb": "b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s75x75_c1/e5939d218bb2d788fbd8b5e843f70f359debb9d8.jpg",
+    "srcset": "b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s100x200/71bf5b0b62787914668b3d8d11e3d5e9764f2f45.jpg 100w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s250x400/982b38edc1fc4241ad7e552829a5a9197ce3772e.jpg 250w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s400x600/07339c73a205ffaa1e850504ca4c99000e630453.jpg 400w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s500x750/c6c5756adebf4c0dcc140c88fb3be22f8a54c4fc.jpg 500w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s540x810/78fd4da37b1f26e1757ffd4cdda6a4a5f5c51ccc.jpg 540w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s640x960/b556a1552d1afccfbad32e1b9be6a573b2c8ff8d.jpg 640w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s1280x1920/4a68750876472787081e86d9cdabfd64c7982fdb.jpg 1280w, b454c0592c421b6caf90cac91c23860d/51230e0e1a6d265e-e2/s2048x3072/eb7c89cc85606113f3c914ec157429815f693063.jpg 1985w",
+    "date": "2024-08-31 18:51:31"
+  },
+  {
     "id": "760357188066770945",
     "post_url": "https://tmblr.co/Z3fYVOgDLDM18e01",
     "meta": false,
     "artist": "somehowmags",
-    "loc": [
-      "pakistan"
+    "name": "Pakistan",
+    "coords": [
+      67,
+      26
     ],
     "thumb": "d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s75x75_c1/895f0e1474f96c0192982b142915d3309c0c1c25.png",
     "srcset": "d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s100x200/861b39e2af260eb076246caf555fffbcae43b353.png 100w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s250x400/61aef393f439454dc61f189d3cc1f76f3f9643f9.png 250w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s400x600/7f9819f4e4bee3a37529bfdb3c78a27769d2f25e.png 400w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s500x750/342e6469e22bceeb51ea91d03120a18361073bd8.png 500w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s540x810/91997f1317cebc614051fe3d78a725b997c20391.png 540w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s640x960/bd8854c5376d36552c3525dd1bdd6fdce8746bcc.png 640w, d3c7e21a184e0da36d9002a310349099/7884c6cee42bcb70-fd/s1280x1920/5198baafe3a6b45ccd9fb705aa4a6dc7e8c3153e.png 920w",
