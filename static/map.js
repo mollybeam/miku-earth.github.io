@@ -43,15 +43,14 @@ map.on('load', () => {
     let setSize = () => {
         let z = map.getZoom();
         // TODO: smaller miku, but gets larger on hover?
-        w = Math.min(3 * 3 ** (z / 3), 12);
-        // console.log(z, w)
+        w = Math.min(2.2 * 3 ** (z / 3), 8);
         mikustyle.innerText = `.miku {--miku-zoom-width: ${w}em !important;}`
     }
     setSize()
     map.on('zoom', setSize)
 
     // anim setup
-    const ANIMATION_TOTAL_SECONDS = 2.5;
+    const ANIMATION_TOTAL_SECONDS = 5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
     let N = 0
@@ -64,7 +63,6 @@ map.on('load', () => {
 
         if (miku.name == "Brazil") {
             // always start the showcase where the trend started!
-            console.log(i, miku.id)
             showcase_i = i - 1;
         }
         N++;
