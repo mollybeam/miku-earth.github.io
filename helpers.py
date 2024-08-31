@@ -14,7 +14,7 @@ class Miku(TypedDict):
     meta: bool
 
     # if not meta:
-    source: Literal['tumblr', 'twitter']
+    source: Literal['tumblr', 'twitter', 'cohost']
     artist_url: str
 
     date: str
@@ -42,6 +42,8 @@ def process_tags(tags: list[str]) -> Miku:
     match tags.pop():
         case '(from twitter)':
             miku['source'] = 'twitter'
+        case '(from cohost)':
+            miku['source'] = 'cohost'
         case not_a_source:
             tags.append(not_a_source)
 
