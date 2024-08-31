@@ -26,14 +26,16 @@ a:visited {
   color: #3dbdd5;
 }
 
-.content {
-  height: 100%;
-  flex-direction: column;
-}
+/* HEADER */
 
-.content header {
-  height: 20vh;
-  overflow: scroll;
+header {
+  position: fixed;
+  border-radius: 1em;
+  padding: 1em;
+  z-index: 1000;
+  background: rgba(100%, 100%, 100%, 75%);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 h1,
@@ -57,6 +59,7 @@ h2 {
 .feedback {
   font-size: 0.8em;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .opaque {
@@ -68,9 +71,11 @@ h2 {
   width: 1.5em;
 }
 
+/* MAP */
+
 #map,
 #mapfallback {
-  height: 85vh;
+  height: 100vh;
 
   position: fixed;
   display: block;
