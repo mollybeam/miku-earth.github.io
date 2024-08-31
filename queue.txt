@@ -1,290 +1,358 @@
- 0 st petersburg
- 0 france, alsace
- 0 colombia
- 0 chicago
- 0 chicana
- 0 portugal
- 0 scotland
- 0 usa
- 0 poland
- 0 argentina
- 0 malagasy
- 0 pakistan
- 0 new jersey
- 0 maine
- 0 texas
- 0 portland
- 0 australia
- 0 etruria, (historical)
- 1 china, tang dynasty
- 1 south east asian expat in china
- 1 wales
- 1 philippines
- 1 mongolia
- 1 korea
- 1 americas
- 1 andalusia
- 1 medieval, (historical)
- 1 acadia
- 1 argentina
- 1 french guiana
- 1 scotland
- 1 rattanakosin
- 1 argentina
- 1 lombardy
- 1 panama
- 1 latvia
- 1 arkansas
- 1 west bengal
- 2 mexico
- 2 pacific northwest
- 2 philippines, (historical)
- 2 philippines
- 2 english crusader, (historical)
- 2 russia
- 2 appalachia
- 2 russia
- 2 ainu
- 2 greece
- 2 asia
- 2 czechia
- 2 united kingdom, england
- 2 korea, gache-inspired hairstyle
- 2 netherlands
- 2 friuli
- 2 spain
- 2 romania
- 2 desi
- 2 norway
- 3 african american
- 3 ukraine
- 3 pontus
- 3 baltic prussia
- 3 mexico
- 3 algeria
- 3 denmark
- 3 korea
- 3 bangladesh
- 3 piedmont
- 3 kosovo
- 3 portugal
- 3 seattle
- 3 romania
- 3 gulf coast
- 3 desi
- 3 malaysia
- 3 kentucky
- 3 peru
- 3 poland
- 4 panama
- 4 florida
- 4 brazil
- 4 arizona
- 4 bavaria
- 4 lusatia
- 4 puerto rico
- 4 sakha
- 4 china
- 4 poland
- 4 mexico
- 4 new york city
- 4 serbia
- 4 brazil
- 4 kikinda
- 4 cascadia
- 4 estonia, muhu
- 4 singapore
- 4 usa
- 4 americas
- 5 cherokee
- 5 estonia
- 5 lithuania
- 5 china
- 5 michigan
- 5 pakistan
- 5 philippines
- 5 silesia
- 5 canada, métis
- 5 chile
- 5 california
- 5 wales
- 5 karelia
- 5 poland
- 5 ireland
- 5 indonesia
- 5 mallorca
- 5 poland
- 5 cyprus
- 5 philippines
- 6 guadeloupe
- 6 belgium
- 6 netherlands
- 6 bulgaria
- 6 portugal
- 6 usa, pennsylvania
- 6 czechia, moravia
- 6 lublin
- 6 india
- 6 orlando
- 6 europe
- 6 liverpool
- 6 belgium
- 6 belarus
- 6 baltimore
- 6 puerto rico
- 6 thailand
- 6 habesha
- 6 texas
- 6 germany
- 7 moldova
- 7 honduras
- 7 genova
- 7 bolesławiec
- 7 americas
- 7 andalusia
- 7 pakistan
- 7 māori
- 7 nottinghamshire
- 7 colombia
- 7 french canadian
- 7 michigan
- 7 san antonio
- 7 alberta
- 7 azerbaijan
- 7 sikhs
- 7 finland
- 7 gullah
- 7 honduras
- 7 turkey
- 8 albania
- 8 irish west coast
- 8 turkmenistan
- 8 yemen
- 8 mapuche
- 8 americas
- 8 croatia
- 8 sarmatia
- 8 egypt
- 8 philippines
- 8 el salvador/honduras
- 8 portugal
- 8 cuba
- 8 pittsburgh
- 8 jamaica
- 8 washington
- 8 long island
- 8 zimbabwe
- 8 uruguayan carnival
- 8 puerto rico
- 9 tang dynasty, (historical)
- 9 south africa
- 9 scotland
- 9 st louis
- 9 turkey
- 9 andhra pradesh
- 9 russia
- 9 kurdistan
- 9 nicaragua
- 9 louisiana
- 9 pakistan
- 9 czechia
- 9 hungary
- 9 ireland
- 9 burma
- 9 netherlands
- 9 brazil
- 9 wales
- 9 germany
- 9 18th century Germany, (historical)
-10 australia
-10 CHamoru
-10 assyria
-10 bolivia
-10 Cundinamarca
-10 bergamo
-10 north italy
-10 ukraine
-10 herero
-10 smižany
-10 tatarstan
-10 valencia
-10 tampa bay
-10 vietnam
-10 venezuela
-10 alabama
-10 peru
-10 portugal
-10 bengal
-10 portugal
-11 new jersey
-11 north caucus
-11 morocco
-11 jamaca
-11 vietnam
-11 mexico
-11 china
-11 desi
-11 laos
-11 midwestern united states
-11 midwestern united states
-11 valencia
-11 catalonia
-11 europe
-11 catalonia
-11 catalonia
-11 catalonia
-11 catalponia
-11 catalonia
-11 catalonia
-12 catalonia
-12 georgia
-12 italy
-12 michigan
-12 mapuche
-12 Peranakan
-12 Norway
-12 Galicia
-12 Ireland
-12 Kansas
-12 Panama
-12 Coal Region
-12 Cuba
-12 Maryland
-12 Midwest
-12 Dagupan
-12 Chilean mythology
-12 Vietnam
-12 Namsadang
-12 Maine
-13 El Salvador
-13 Guatemala
-13 Tatar
-13 South Florida
-13 Gaudí
-13 Filipina
-13 Meänmaa
-13 Boston
-13 Romania
-13 Catalonia
-13 Persia
-13 Indonesia
-13 Gianduja
-13 Palestine
-13 Malaysia
-13 Poland
-13 Morocco
-13 Gujarat
-13 Dublin
-13 Brazil
-14 Poland
-14 Paraguay
-14 Wales
-14 Bulgaria
-14 Cherokee
-14 Iran
-14 Brazil
-14 Pakistan
-14 Nigeria
-14 Bangladesh
-14 Afghanistan
-14 Nigeria
+ 1 rttnmeat             poland
+ 1 momotexx             argentina
+ 1 snowlydial           malagasy
+ 1 somehowmags          pakistan
+ 1 cowinf               new jersey
+ 1 selkieflesh          maine
+ 1 thedrawingpenguin    texas
+ 1 gachahugs            portland
+ 1 lordicusyay          australia
+ 1 threestarseach       etruria, (historical)
+ 1 xzyumi               china, tang dynasty
+ 1 konjacjellysoup      south east asian expat in china
+ 1 edenroseart          wales
+ 1 emillustrating       philippines
+ 1 abstractdogwolfthing mongolia
+ 1 agoh3                korea
+ 1 argentina            americas
+ 1 artsystargazer       andalusia
+ 1 eshpur               medieval, (historical)
+ 2 hellopuns            acadia
+ 2 cyan-fly             argentina
+ 2 myballsitchaurghouchie french guiana
+ 2 squidcave            scotland
+ 2 milrarmemo           rattanakosin
+ 2 ametsizar            argentina
+ 2 aphfroghat           lombardy
+ 2 jetglider            panama
+ 2 appldino             latvia
+ 2 emilyunicorn333      arkansas
+ 2 korokettes           west bengal
+ 2 bonipops             mexico
+ 2 jadesnapart          pacific northwest
+ 2 nutbreadys           philippines, (historical)
+ 2 cloudyydraws         philippines
+ 2 bbgdefencelawyer     english crusader, (historical)
+ 2 kikirka225           russia
+ 2 littleivyart         appalachia
+ 2 pr_ponnyan           russia
+ 2 dungeonBGM           ainu
+ 3 albinobirb           greece
+ 3 pillow-boi           asia
+ 3 toxictaicho          czechia
+ 3 softpinkscribbles    united kingdom, england
+ 3 yoyoworks            korea, gache-inspired hairstyle
+ 3 mto-art              netherlands
+ 3 justen1d             friuli
+ 3 paulaknightart       spain
+ 3 faeberries           romania
+ 3 cubedmango           desi
+ 3 kald-dal-art         norway
+ 3 bluumey              african american
+ 3 pebblepeb            ukraine
+ 3 adraarts             pontus
+ 3 jackce               baltic prussia
+ 3 choconat67           mexico
+ 3 golden-astrum        algeria
+ 3 underyoursnow        denmark
+ 3 sagwa397             korea
+ 3 nolvini              bangladesh
+ 4 mspaint-flower       piedmont
+ 4 frenchublog          kosovo
+ 4 ztrawberryzz         portugal
+ 4 sucrologue           seattle
+ 4 eternalblizzards     romania
+ 4 t00thpasteface       gulf coast
+ 4 samairuart           desi
+ 4 coffeeholicwhaman    malaysia
+ 4 gr33rdraws           kentucky
+ 4 cryocannon           peru
+ 4 wszczebrzyszynie     poland
+ 4 tiffycat             panama
+ 4 KierScribbles        florida
+ 4 senranx              brazil
+ 4 reactorcoreart       arizona
+ 4 honorandpraisetoourlady bavaria
+ 4 vesnaaa              lusatia
+ 4 himebuns             puerto rico
+ 4 mcksnn               sakha
+ 4 cricketflour         china
+ 5 thirea               poland
+ 5 mrc3ntipede          mexico
+ 5 arsvnist             new york city
+ 5 sunnypoppy4          serbia
+ 5 _saaanic_            brazil
+ 5 diathadevil          kikinda
+ 5 mrcatfishing         cascadia
+ 5 etruski              estonia, muhu
+ 5 grendel-menz         usa
+ 5 argentina            americas
+ 5 pinkcultgirl         cherokee
+ 5 windmills123         estonia
+ 5 j-amatus             lithuania
+ 5 sea_pall             china
+ 5 gayest-squrrel       michigan
+ 5 aigirlonline         pakistan
+ 5 dinpixels            philippines
+ 5 ayatheav             silesia
+ 5 zerorock41           canada, métis
+ 5 mikurinkuwu          chile
+ 6 camiliar             california
+ 6 windwenn             wales
+ 6 kkomkkor             karelia
+ 6 camo-thy             poland
+ 6 mouserrouser         ireland
+ 6 prime-illust         indonesia
+ 6 useless-catalanfacts mallorca
+ 6 konstitunia          poland
+ 6 diadoesart           cyprus
+ 6 ocean_hairuuu        philippines
+ 6 majartsy             guadeloupe
+ 6 the-gentle-jellofish belgium
+ 6 yarapara             netherlands
+ 6 yubuki_i             bulgaria
+ 6 xkaru-karux          portugal
+ 6 sukifoof-art         usa, pennsylvania
+ 6 miroslav-hashlerka   czechia, moravia
+ 6 selvenus             lublin
+ 6 kurocrow             india
+ 6 curioscurio          orlando
+ 7 latvia               europe
+ 7 smaiart              liverpool
+ 7 nousanti             belgium
+ 7 iskander-tm          belarus
+ 7 candicornart         baltimore
+ 7 lazycatartist6       puerto rico
+ 7 salmonpiffy          thailand
+ 7 almondpiglet         habesha
+ 7 princepsed           texas
+ 7 mousjoy              germany
+ 7 stupidneko           moldova
+ 7 lynilary-art         honduras
+ 7 mo-mo-ru-art         genova
+ 7 wszczebrzyszynie     bolesławiec
+ 7 costa rica           americas
+ 7 im-yotsu             andalusia
+ 7 hani-draws           pakistan
+ 7 beastwhimsy          māori
+ 7 idisstuff            nottinghamshire
+ 7 lumiivalentiine      colombia
+ 8 constant-brain-fog   french canadian
+ 8 bleachcakes          michigan
+ 8 prettygirlgerard     san antonio
+ 8 nonbinarymissingno   alberta
+ 8 biajise              azerbaijan
+ 8 starkitten101        sikhs
+ 8 sacklumi             finland
+ 8 maddivillain         gullah
+ 8 nicotine-boi         honduras
+ 8 honey_jars           turkey
+ 8 rrez-art             albania
+ 8 crooked-sketches     irish west coast
+ 8 umbratumba           turkmenistan
+ 8 adenlicpng           yemen
+ 8 jet-set-go-go        mapuche
+ 8 mexico               americas
+ 8 tolicandco           croatia
+ 8 niemcewitch          sarmatia
+ 8 thebluelittlewitch2-thesequel egypt
+ 8 puppyeared           philippines
+ 9 lynilary             el salvador/honduras
+ 9 vollcorte            portugal
+ 9 pinkcrayon           cuba
+ 9 mallrattz            pittsburgh
+ 9 michaels-reality     jamaica
+ 9 finn-macuncool       washington
+ 9 ndrogyny             long island
+ 9 jxmuu-nat            zimbabwe
+ 9 dwrdnrtn             uruguayan carnival
+ 9 spherafim            puerto rico
+ 9 randomxiwi           tang dynasty, (historical)
+ 9 dowdles              south africa
+ 9 laplaces-angel       scotland
+ 9 ransomnote           st louis
+ 9 ghosterain           turkey
+ 9 theoneandonlyyeti    andhra pradesh
+ 9 anaemoll             russia
+ 9 bubblbudd            kurdistan
+ 9 agtartzz             nicaragua
+ 9 enbiart              louisiana
+10 ayzaart              pakistan
+10 jensojkaobecna       czechia
+10 maxyvert             hungary
+10 can-of-w0rmz         ireland
+10 atsyvamp             burma
+10 sapphickx            netherlands
+10 aesthetichoney2111   brazil
+10 cabysoft             wales
+10 mangos-draws         germany
+10 bluebeesknees        18th century Germany, (historical)
+10 bluuscreen-png       australia
+10 grumfield            CHamoru
+10 toadtype             assyria
+10 by-peachy            bolivia
+10 jakei95              Cundinamarca
+10 alicevoidpassion     bergamo
+10 lawvno               north italy
+10 viyviychi            ukraine
+10 bunnyartistic        herero
+10 ovaa-bi-bia          smižany
+11 kiyuiqi              tatarstan
+11 rosenmadchen         valencia
+11 pinklikeroses        tampa bay
+11 alexcaninnit         vietnam
+11 dibukae              venezuela
+11 astralwhat           alabama
+11 chiiimchar           peru
+11 gelatinofsoap        portugal
+11 robozombii           bengal
+11 gelatinofsoap        portugal
+11 polygonlaundry       new jersey
+11 ddeck                north caucus
+11 nohachan_            morocco
+11 skull_fraxr          jamaca
+11 po_thepotato         vietnam
+11 ggelus_              mexico
+11 yao_wang29           china
+11 pocketnii            desi
+11 carottemechante      laos
+11 kiddokori            midwestern united states
+12 livfordoodles        midwestern united states
+12 merymdm              valencia
+12 itsnailasart         catalonia
+12 calçotada            europe
+12 spacespheal          catalonia
+12 enosst               catalonia
+12 taysokka             catalonia
+12 nodlschikk           catalponia
+12 gatomonogordo        catalonia
+12 mewvy_y              catalonia
+12 lau_artwork          catalonia
+12 alyossan             georgia
+12 creatorchaos         italy
+12 tritsukiii           michigan
+12 pake-qr              mapuche
+12 sammilimyy           Peranakan
+12 marsipain            Norway
+12 mystar21             Galicia
+12 dr-cll-emlon         Ireland
+12 petziez              Kansas
+13 cheer-soli-art       Panama
+13 mandragorika         Coal Region
+13 kalopsic-lagomorph   Cuba
+13 blueskittlesart      Maryland
+13 wraether             Midwest
+13 zvezdacito           Dagupan
+13 acemimio             Chilean mythology
+13 shhroomer            Vietnam
+13 bananahkim           Namsadang
+13 limesade             Maine
+13 chiliger             El Salvador
+13 orokothe             Guatemala
+13 pina-repsi           Tatar
+13 kenniex2             South Florida
+13 arcdiris             Gaudí
+13 chaeyeonieeearts     Filipina
+13 rubenthecatisstupid  Meänmaa
+13 camthecatchameleon   Boston
+13 sun-gender           Romania
+13 dead-dog-dip         Catalonia
+14 fulldenimjackett     Persia
+14 3luejamz             Indonesia
+14 kuro-ayameart        Gianduja
+14 siemingly            Palestine
+14 communist-hatsunemiku Malaysia
+14 amosprinz            Poland
+14 ketchappie           Morocco
+14 feything-n-frothing  Gujarat
+14 helixel              Dublin
+14 rotyolk              Brazil
+14 cerumoce             Poland
+14 pionikky             Paraguay
+14 fishmirrors          Wales
+14 adrawee              Bulgaria
+14 ival-eon             Cherokee
+14 dgiterart            Iran
+14 doutarina            Brazil
+14 communist-hatsunemiku Pakistan
+14 communist-hatsunemiku Nigeria
+14 maleficauraa         Bangladesh
+15 ahriana              Afghanistan
+15 polylocks-blog       Nigeria
+15 bixels               San Diego
+15 loafftey             Malaysia
+15 duhaerith            Seville
+15 justapurplemess      Abruzzi
+15 animatronicthing     Spain
+15 artesani             Finland
+15 fern-the-snail       New York
+15 antea-ter            Croatia
+15 maoxyi               Albania
+15 niesha-nanami        Australia
+15 envybabey            Māori
+15 p1ctur3              Southeast Asia
+15 kinoraisins          Malaysia
+15 miloora              United Kingdom
+15 inksoover            Mavka
+15 yuafre               Don Cossack
+15 southernbaphomet     Mississippi
+15 starii-lins          Malaysia
+16 anir0bin             Poland
+16 leeafygreens         Volendam
+16 manxmoss             Saugatuck
+16 dololza              Belarus
+16 3rr0r-202            Tunisia
+16 stylish-fish         Finland
+16 kawayylmeow          Moldova
+16 littlehachoko        Le Mans
+16 tun3r                Cariñosa
+16 tidalpooles          Durango
+16 fumiruku             Thailand
+16 citrussam513         Colorado
+16 nihylumbra           France
+16 paleplumeria         Malaysia
+16 bigtub               Wisconsin
+16 papayasreturn        Austria
+16 cozy-crow            Somalia/Ethiopia
+16 seraphonfire         Russia
+16 smrtnik07            Serbia
+16 eizaamkc             Poland
+17 potatofu-art         Switzerland
+17 nightgalen           Métis
+17 mistmiav             Ukraine
+17 grimmjow             Navajo
+17 elderling            Kaqchikel
+17 parti-poppers        Norway
+17 lillhappycloud       Ireland
+17 jujijelly            Afghanistan
+17 mike-png             Jewish clothing
+17 orannotoren          Purim
+17 evergreensounds      Palóc
+17 minart-was-taken     Finland
+17 j-amatus             Palestine
+17 ayjaydraws           Germany
+17 cornflowershade      Desi
+17 gh0stsh4rk           Ecuador
+17 mankadavi            Ibaloi
+17 yesterdoesart        Vietnam
+17 artbounddude         The Bahamas
+17 octaee               Canary Islands
+18 academicccc          Ukraine
+18 alder-does-art       Mykolaiv
+18 s-38-n               Aragon
+18 oyiiixenia           Czechia
+18 smile-files          Judaism
+18 ankoarti             Poland
+18 bastardgoblinwolf    Lubusz Voivodeship
+18 allottavabassa       Kashubia
+18 hex82141a            Udmurtia
+18 meltofuu             Kazakhstan
+18 juicecoat            Latvia
+18 trecciolinoooooo     Piedmont
+18 sunsetsmakemesad     Bosnia
+18 exescalibur          Angola / Mozambique
+18 paulmcicedtea        Quebec
+18 vetulicolia          Bosnia
+18 nullofthev0id        Saint Kitts and Nevis
+18 3amclothesmonster    Palestine
+18 srtnnt               Russia
