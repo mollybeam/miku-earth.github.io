@@ -15,7 +15,7 @@ PROMPT="[36m˶ᵔᵕᵔ˶[0m ↦ "
 alias c="source miku.zsh"
 alias f="python fetch.py"
 alias p="python post_process.py"
-alias qr="python miqueue.py > queue.txt"
+alias qr="python miqueue.py > queue.txt; source miku.zsh"
 alias q="less queue.txt"
 alias qg="open https://www.tumblr.com/blog/miku-earth/queue"
 qs() { grep -i $1 queue.txt; }

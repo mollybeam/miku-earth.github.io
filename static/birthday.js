@@ -29,7 +29,10 @@ if (today.getMonth() == 7 && today.getDate() == 31) {
     cake.onclick = () => {
         N += 1;
         let colors = N % 10 ? ['#3dbdd5'] : undefined;
+        let count = N % 10 ? 20 : 100;
+
         if (MIKUS[showcase_i].name == "Brazil") {
+            count = 100;
             colors = [
                 '#009B3A',
                 '#FEDF00',
@@ -37,12 +40,13 @@ if (today.getMonth() == 7 && today.getDate() == 31) {
             ]
         }
         if (MIKUS[showcase_i].shiny) {
+            count = 50;
             colors = ['#ffd700']
         }
 
         confetti({
             'origin': xy(get(showcase_i)),
-            'spread': 90,
+            'spread': 140,
             'particleCount': 100,
             'ticks': 100,
             'gravity': 0.3,
