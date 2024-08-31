@@ -1,3 +1,4 @@
+#! /usr/bin/env python3.12
 """
 Fetch published mikus and post them.
 """
@@ -38,9 +39,7 @@ for post in posts:
         continue
 
     miku.setdefault('artist', post['trail'][-1]['blog']['name'])
-
     dt = Post.get_date(client.get_root_post(post))
-
     miku.update(process_tags(post['tags']))
 
 
@@ -53,6 +52,11 @@ for post in posts:
     TUMBLR_MEDIA = 'https://64.media.tumblr.com/'
     srcset_raw = Post.get_first_image(post)
     srcset = get_srcset(srcset_raw)
+
+    if not srcset:
+        mikus.remove(miku)
+        print('error!', miku['id'], miku['post_url'])
+        continue
 
     thumb = srcset.get(75).replace(TUMBLR_MEDIA, '')
     srcset_raw = srcset_raw.replace(srcset.get(75) + ' 75w, ', '').replace(TUMBLR_MEDIA, '')
