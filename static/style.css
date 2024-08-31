@@ -36,21 +36,41 @@ a:visited {
   overflow: scroll;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Lora", Helvetica Neue, Arial, sans-serif;
   font-weight: normal;
-  font-size: 36px;
   color: black;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.feedback {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.opaque {
+  opacity: 0.5;
 }
 
 #count {
   display: inline-block;
-  width: 1.75em;
+  width: 1.5em;
 }
 
 #map,
 #mapfallback {
-  height: 80vh;
+  height: 85vh;
 
   position: fixed;
   display: block;
