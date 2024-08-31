@@ -1,0 +1,290 @@
+ 0 st petersburg
+ 0 france, alsace
+ 0 colombia
+ 0 chicago
+ 0 chicana
+ 0 portugal
+ 0 scotland
+ 0 usa
+ 0 poland
+ 0 argentina
+ 0 malagasy
+ 0 pakistan
+ 0 new jersey
+ 0 maine
+ 0 texas
+ 0 portland
+ 0 australia
+ 0 etruria, (historical)
+ 1 china, tang dynasty
+ 1 south east asian expat in china
+ 1 wales
+ 1 philippines
+ 1 mongolia
+ 1 korea
+ 1 americas
+ 1 andalusia
+ 1 medieval, (historical)
+ 1 acadia
+ 1 argentina
+ 1 french guiana
+ 1 scotland
+ 1 rattanakosin
+ 1 argentina
+ 1 lombardy
+ 1 panama
+ 1 latvia
+ 1 arkansas
+ 1 west bengal
+ 2 mexico
+ 2 pacific northwest
+ 2 philippines, (historical)
+ 2 philippines
+ 2 english crusader, (historical)
+ 2 russia
+ 2 appalachia
+ 2 russia
+ 2 ainu
+ 2 greece
+ 2 asia
+ 2 czechia
+ 2 united kingdom, england
+ 2 korea, gache-inspired hairstyle
+ 2 netherlands
+ 2 friuli
+ 2 spain
+ 2 romania
+ 2 desi
+ 2 norway
+ 3 african american
+ 3 ukraine
+ 3 pontus
+ 3 baltic prussia
+ 3 mexico
+ 3 algeria
+ 3 denmark
+ 3 korea
+ 3 bangladesh
+ 3 piedmont
+ 3 kosovo
+ 3 portugal
+ 3 seattle
+ 3 romania
+ 3 gulf coast
+ 3 desi
+ 3 malaysia
+ 3 kentucky
+ 3 peru
+ 3 poland
+ 4 panama
+ 4 florida
+ 4 brazil
+ 4 arizona
+ 4 bavaria
+ 4 lusatia
+ 4 puerto rico
+ 4 sakha
+ 4 china
+ 4 poland
+ 4 mexico
+ 4 new york city
+ 4 serbia
+ 4 brazil
+ 4 kikinda
+ 4 cascadia
+ 4 estonia, muhu
+ 4 singapore
+ 4 usa
+ 4 americas
+ 5 cherokee
+ 5 estonia
+ 5 lithuania
+ 5 china
+ 5 michigan
+ 5 pakistan
+ 5 philippines
+ 5 silesia
+ 5 canada, métis
+ 5 chile
+ 5 california
+ 5 wales
+ 5 karelia
+ 5 poland
+ 5 ireland
+ 5 indonesia
+ 5 mallorca
+ 5 poland
+ 5 cyprus
+ 5 philippines
+ 6 guadeloupe
+ 6 belgium
+ 6 netherlands
+ 6 bulgaria
+ 6 portugal
+ 6 usa, pennsylvania
+ 6 czechia, moravia
+ 6 lublin
+ 6 india
+ 6 orlando
+ 6 europe
+ 6 liverpool
+ 6 belgium
+ 6 belarus
+ 6 baltimore
+ 6 puerto rico
+ 6 thailand
+ 6 habesha
+ 6 texas
+ 6 germany
+ 7 moldova
+ 7 honduras
+ 7 genova
+ 7 bolesławiec
+ 7 americas
+ 7 andalusia
+ 7 pakistan
+ 7 māori
+ 7 nottinghamshire
+ 7 colombia
+ 7 french canadian
+ 7 michigan
+ 7 san antonio
+ 7 alberta
+ 7 azerbaijan
+ 7 sikhs
+ 7 finland
+ 7 gullah
+ 7 honduras
+ 7 turkey
+ 8 albania
+ 8 irish west coast
+ 8 turkmenistan
+ 8 yemen
+ 8 mapuche
+ 8 americas
+ 8 croatia
+ 8 sarmatia
+ 8 egypt
+ 8 philippines
+ 8 el salvador/honduras
+ 8 portugal
+ 8 cuba
+ 8 pittsburgh
+ 8 jamaica
+ 8 washington
+ 8 long island
+ 8 zimbabwe
+ 8 uruguayan carnival
+ 8 puerto rico
+ 9 tang dynasty, (historical)
+ 9 south africa
+ 9 scotland
+ 9 st louis
+ 9 turkey
+ 9 andhra pradesh
+ 9 russia
+ 9 kurdistan
+ 9 nicaragua
+ 9 louisiana
+ 9 pakistan
+ 9 czechia
+ 9 hungary
+ 9 ireland
+ 9 burma
+ 9 netherlands
+ 9 brazil
+ 9 wales
+ 9 germany
+ 9 18th century Germany, (historical)
+10 australia
+10 CHamoru
+10 assyria
+10 bolivia
+10 Cundinamarca
+10 bergamo
+10 north italy
+10 ukraine
+10 herero
+10 smižany
+10 tatarstan
+10 valencia
+10 tampa bay
+10 vietnam
+10 venezuela
+10 alabama
+10 peru
+10 portugal
+10 bengal
+10 portugal
+11 new jersey
+11 north caucus
+11 morocco
+11 jamaca
+11 vietnam
+11 mexico
+11 china
+11 desi
+11 laos
+11 midwestern united states
+11 midwestern united states
+11 valencia
+11 catalonia
+11 europe
+11 catalonia
+11 catalonia
+11 catalonia
+11 catalponia
+11 catalonia
+11 catalonia
+12 catalonia
+12 georgia
+12 italy
+12 michigan
+12 mapuche
+12 Peranakan
+12 Norway
+12 Galicia
+12 Ireland
+12 Kansas
+12 Panama
+12 Coal Region
+12 Cuba
+12 Maryland
+12 Midwest
+12 Dagupan
+12 Chilean mythology
+12 Vietnam
+12 Namsadang
+12 Maine
+13 El Salvador
+13 Guatemala
+13 Tatar
+13 South Florida
+13 Gaudí
+13 Filipina
+13 Meänmaa
+13 Boston
+13 Romania
+13 Catalonia
+13 Persia
+13 Indonesia
+13 Gianduja
+13 Palestine
+13 Malaysia
+13 Poland
+13 Morocco
+13 Gujarat
+13 Dublin
+13 Brazil
+14 Poland
+14 Paraguay
+14 Wales
+14 Bulgaria
+14 Cherokee
+14 Iran
+14 Brazil
+14 Pakistan
+14 Nigeria
+14 Bangladesh
+14 Afghanistan
+14 Nigeria
