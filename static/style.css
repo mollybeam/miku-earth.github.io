@@ -48,7 +48,8 @@ h1 {
   width: 1.75em;
 }
 
-#map {
+#map,
+#mapfallback {
   height: 80vh;
 
   position: fixed;
@@ -56,6 +57,12 @@ h1 {
   left: 0;
   bottom: 0;
   width: 100vw;
+}
+
+#mapfallback {
+  text-align: center;
+  z-index: -10;
+  opacity: 0.3;
 }
 
 /* Miku element */
