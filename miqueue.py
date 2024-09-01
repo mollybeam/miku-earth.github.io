@@ -8,9 +8,12 @@ from pytumblr2 import Post
 from helpers import client, load_mikus, process_tags
 
 for miku in load_mikus():
+    if miku.get('meta', False):
+        continue
     artist = miku['artist']
     loc = ', '.join(miku['loc']) if 'loc' in miku else miku['name']
-    print(f'   {artist:20} {loc}')
+    url = miku['post_url']
+    print(f'   {artist:30} {loc:30} {url}')
 
 N = 0
 for post in client.get_posts("miku-earth", queue=True):
@@ -21,11 +24,15 @@ for post in client.get_posts("miku-earth", queue=True):
     post: Post
     
     miku = process_tags(post['tags'])
-    miku.setdefault('artist', post['trail'][-1]['blog']['name'])
+    blogname = post['trail'][-1]['blog']['name']
+    miku.setdefault('artist', blogname)
 
     url = post['id_string']
     source = miku['source']
     loc = ', '.join(miku['loc']) if 'loc' in miku else miku['name']
     artist = miku['artist']
 
-    print(f'{page:2} {artist:20} {loc}')
+    post_id = post['trail'][-1]['post']['id']
+    url = f'https://tumblr.com/{blogname}/{post_id}'
+
+    print(f'{page:2} {artist:30} {loc:30} {url}')

@@ -1,12 +1,14 @@
 clear
 
-N=$(wc -l queue.txt | awk '{print $1}')
+Nq=$(wc -l queue.txt | awk '{print $1}')
+Nq2=$(wc -l queuetwo.txt | awk '{print $1}')
+N=$((Nq + Nq2))
 Np=$(sed 's/^const MIKUS = //' static/mikus.js | jq length)
 Nc=$(sed 's/^const MIKUS = //' static/mikus.js | jq '[.[] | select(.coords == null)] | length')
 
 figlet "miku.earth: $N" | lolcat -F 0.5
 
-print -P "[3m%F{cyan italic}╰──────────  posted: $Np  ($Nc need coords)  queue: $(($N - $Np))  ────────────╯"
+print -P "[3m%F{cyan italic}╰─────   posted: $Np  ($Nc need coords)  queue: $(($Nq - $Np))  queuetwo: $Nq2   ─────╯"
 echo
 cd $(dirname "$0")
 
