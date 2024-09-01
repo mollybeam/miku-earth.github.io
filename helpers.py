@@ -39,6 +39,9 @@ def process_tags(tags: list[str]) -> Miku:
         'source': 'tumblr'
     }
 
+    EXCLUDE = ['miku worldwide', 'hatsune miku']
+    tags = [t for t in tags if t not in EXCLUDE]
+
     match tags.pop():
         case '(from twitter)':
             miku['source'] = 'twitter'
