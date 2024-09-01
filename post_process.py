@@ -9,7 +9,7 @@ mikus = load_mikus()
 mikus = [m for m in mikus if not m.get('meta', False)]
 for m in mikus:
     m.pop('collated_at', None)
-    m.pop('source', None)
+    # m.pop('source', None)
     m.pop('continent', None)
 
     loc = ''
@@ -22,6 +22,14 @@ for m in mikus:
     if 'name' not in m:
         print('name   needed:', m['id'], loc)
         continue
+
+    if 'artist_url' not in m:
+        artist = m['artist']
+        source = m.get('source', None)
+        if not source:
+            source = 'tumblr'
+            print('check if this is tumblr:', m['post_url'])
+        m['artist_url'] = f'https://{source}.com/{artist}'
 
     # coord and name assigned: we can remove loc
     m.pop('loc', None)

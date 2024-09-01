@@ -42,10 +42,6 @@ for post in posts:
     dt = Post.get_date(client.get_root_post(post))
     miku.update(process_tags(post['tags']))
 
-    artist = miku['artist']
-    source = miku['source']
-    artist_url = f'https://{source}.com/{artist}'
-
     TUMBLR_MEDIA = 'https://64.media.tumblr.com/'
     srcset_raw = Post.get_first_image(post)
     srcset = get_srcset(srcset_raw)
