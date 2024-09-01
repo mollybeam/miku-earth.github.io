@@ -1,13 +1,14 @@
 const do_animate = true;
 
-// yes i styled my own map. it was fun and hopefully makes for a nicer map experience!
-
-const KEY = "7u4GIZgEyI3d1WRGQSI0";
 var map = new maplibregl.Map({
     container: 'map',
-    style: `https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=${KEY}`,
-    center: [30, 0], // xy
-    zoom: 1
+    // ugh needlessly expensive
+    // style: "https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=7u4GIZgEyI3d1WRGQSI0",
+    style: 'static/mapstyle.json',
+    hash: true,
+    center: [30, 30], // xy
+    zoom: 1.2,
+    maxZoom: 6,
 });
 
 const $space = () => document.createTextNode(" ");
