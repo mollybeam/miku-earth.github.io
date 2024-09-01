@@ -38,6 +38,8 @@ function shuffle(array) {
 
 let showcase_i = 0;
 map.on('load', () => {
+    document.getElementById('mapfallback').remove()
+
     attribute(map, "© the respective artists")
     shuffle(MIKUS);
 
