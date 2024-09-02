@@ -16,7 +16,7 @@ for miku in load_mikus():
     print(f'   {artist:30} {loc:30} {url}')
 
 N = 0
-for post in client.get_posts("miku-earth", queue=True):
+for post in client.get_posts("miku-earth", 'queue'):
     N += 1
     page = N // 20 + 1
 

@@ -1,7 +1,7 @@
 clear
 
 Nq=$(wc -l queue.txt | awk '{print $1}')
-Nq2=$(wc -l queuetwo.txt | awk '{print $1}')
+Nq2=$(wc -l queuetwo.tsv | awk '{print $1}')
 N=$((Nq + Nq2))
 Np=$(sed 's/^const MIKUS = //' static/mikus.js | jq length)
 Nc=$(sed 's/^const MIKUS = //' static/mikus.js | jq '[.[] | select(.coords == null)] | length')
@@ -20,4 +20,7 @@ alias p="python post_process.py"
 alias qr="python miqueue.py > queue.txt; source miku.zsh"
 alias q="less queue.txt"
 alias qg="open https://www.tumblr.com/blog/miku-earth/queue"
-qs() { grep -i $1 queue.txt; }
+qs() {
+    grep -i $1 queue.txt;
+    grep -i $1 queuetwo.tsv;
+    }
