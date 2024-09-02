@@ -17,10 +17,10 @@ for m in mikus:
         loc = ', '.join(m['loc'])
 
     if 'coords' not in m:
-        print('coords needed:', m['id'], loc or m['name'])
+        print('coords:', m['id'], loc or m['name'])
         continue
     if 'name' not in m:
-        print('name   needed:', m['id'], loc)
+        print('name:  ', m['id'], loc)
         continue
 
     if 'artist_url' not in m:
