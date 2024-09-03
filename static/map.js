@@ -47,7 +47,7 @@ let showcase_i = 0;
 map.on('load', () => {
     document.getElementById('mapfallback').remove()
     attribute(map, "© respective artists")
-    attribute(map, "• collated by <a href='https://tumblr.com/ awnowimsad'>awnowimsad</a> & <a href='https://tumblr.com/mira-hildegard'>mira</a>")
+    attribute(map, "• collated by <a href='https://tumblr.com/awnowimsad'>awnowimsad</a> & <a href='https://tumblr.com/mira-hildegard'>mira</a>")
     shuffle(MIKUS);
 
     // // // Zooming makes mikus slightly larger
