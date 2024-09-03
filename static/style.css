@@ -12,12 +12,12 @@ p {
   line-height: 1rem;
 }
 
-span {
-  transition: opacity 5s;
+#count {
+  transition: opacity 0.3s;
   opacity: 1;
 }
 
-.transparent {
+#count.transparent {
   opacity: 0;
 }
 
@@ -84,13 +84,19 @@ h2 {
   bottom: 0;
 }
 
+#map {
+  opacity: 0;
+  animation: fade-in 0.3s 0.25s forwards;
+}
+
 #mapfallback {
-  z-index: -100;
+  z-index: 200;
   text-align: center;
   width: 80%;
   left: 10%;
   height: 60%;
-  animation: fade-in 3s;
+  opacity: 0;
+  animation: fade-in 6s 1s forwards;
 }
 
 /* Miku element */
