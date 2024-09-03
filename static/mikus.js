@@ -2933,9 +2933,15 @@ const MIKUS = [
     "artist": "talestales-art",
     "source": "tumblr",
     "name": "Norrland",
+    "country": "SE",
+    "coords": [
+      18,
+      65
+    ],
     "thumb": "2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s75x75_c1/72abb267f15dcbfa69fbab294d58821c0b02ac07.png",
     "srcset": "2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s100x200/99283f8d06a0618d4c4547cc003ff94c84111169.png 100w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s250x400/e20f0f6f1b3e207c9ec35ab5fcfb72f3e1754338.png 250w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s400x600/95944cd30d8fb9679a68580bd9ca90b865b8941d.png 400w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s500x750/6fa8c5bf6ab30f158ea98cf866afc41aef693494.png 500w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s540x810/1dc819320b216623bb8cb83256f3e9379f6a01c0.png 540w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s640x960/5a57363849ef92e7f3f2ef1111948ee2a698eeb2.png 640w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s1280x1920/7b6c5e829cea879907d8d38d2bcbd3562d345a2c.png 1280w, 2d8e4810e4effabf351f33e5722053dc/90702aed649e41dd-fb/s2048x3072/112b346802db9a112617eb24b393026c8175840e.png 2048w",
-    "date": "2024-08-30 20:12:30"
+    "date": "2024-08-30 20:12:30",
+    "artist_url": "https://tumblr.com/talestales-art"
   },
   {
     "id": "760529571960537088",
@@ -3501,7 +3507,8 @@ const MIKUS = [
     "id": "760330918979354624",
     "post_url": "https://tmblr.co/Z3fYVOgDFF51Wi00",
     "artist": "kivizzaofficial",
-    "name": "Mongolia",
+    "name": "Dymkovo",
+    "wikipedia": "Dymkovo toys",
     "country": "RU",
     "coords": [
       49.697,
@@ -4590,9 +4597,16 @@ const MIKUS = [
     "artist": "kadisbook999",
     "source": "tumblr",
     "name": "Chuvash",
+    "wikipedia": "Chuvash people",
+    "country": "RU",
+    "coords": [
+      47.1,
+      55.55
+    ],
     "thumb": "e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s75x75_c1/7fd0f9e81ace4bef736f21b062d823fe0f654fb4.png",
     "srcset": "e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s100x200/8397a2c9cd7052c8144b4abeaa13260dcfc08270.png 100w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s250x400/98581f550f2a707da4a847d70071c1454cde4c2c.png 250w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s400x600/ada96c9c92eb91549fbfc0003e43c027853d3a04.png 400w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s500x750/5cad6f07f00e145cac42e1d2066c0b8036528796.png 500w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s540x810/cfc5bdb79f7e46d5f013c8dc9ef458c6b26d7424.png 540w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s640x960/6e74b17ff720a9f35986d6dd062767b1a88c6222.png 640w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s1280x1920/0934629c3333f03d21b25127e02e71a063b85aef.png 1280w, e41cf25bc5d2bce651d85efb213b6bde/cf781965ef43f4a6-26/s2048x3072/773fb2700398f7f7e777fbafec5be26789b0a929.png 1447w",
-    "date": "2024-09-02 09:53:38"
+    "date": "2024-09-02 09:53:38",
+    "artist_url": "https://tumblr.com/kadisbook999"
   },
   {
     "id": "760501812873854976",
@@ -4648,9 +4662,16 @@ const MIKUS = [
     "artist": "boba-thot",
     "source": "tumblr",
     "name": "Newcastle",
+    "wikipedia": "Newcastle upon Tyne",
+    "country": "GB",
+    "coords": [
+      -1.61,
+      54.98
+    ],
     "thumb": "649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s75x75_c1/32040d46fd9260feabac38e9793fa3da75b8643b.jpg",
     "srcset": "649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s100x200/73db7c169d2175dd036bd6bc253c37cf56f2db7f.jpg 100w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s250x400/d5878563c9f0a131196cd12b18db76ad52529f81.jpg 250w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s400x600/e7d183839a65a367c4918ecd98f4b34cba616d1c.jpg 400w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s500x750/2ebb98f2921c7fd3f8b41c99bb9003882fe5ae71.jpg 500w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s540x810/d66beb644eed709eb99fc7e4254254149703bffd.jpg 540w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s640x960/5dad76290555f780f5ed02e5af7ba9e3b4864fe2.jpg 640w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s1280x1920/444d22d5867768c9ab465e73a9d8dc89a53f72a3.jpg 1280w, 649bde880ea5ccfbe3f3c44e03df1ab2/4227e33d7031082c-4c/s2048x3072/2b79c50da8acc68b9f6151056b0cb104f3a7e2a7.jpg 2048w",
-    "date": "2024-09-02 12:25:17"
+    "date": "2024-09-02 12:25:17",
+    "artist_url": "https://tumblr.com/boba-thot"
   },
   {
     "id": "760545894761381888",
@@ -4803,9 +4824,15 @@ const MIKUS = [
     "artist": "trecciolinoooooo",
     "source": "tumblr",
     "name": "Piedmont",
+    "country": "IT",
+    "coords": [
+      7.7,
+      45.1
+    ],
     "thumb": "ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s75x75_c1/1aad8950060fd0bf7c285304ea11f9cd32e51b42.jpg",
     "srcset": "ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s100x200/9b7d73663ef8e72bfa03108031fe8f96fbedbd23.jpg 100w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s250x400/b56f56f97dc4e7214dc7b92b48ba08139dd17ab1.jpg 250w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s400x600/4fa5c04d781392bdc98e34be3a5a64704967d3aa.jpg 400w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s500x750/172b0db7deedbfc338129566fed5d6186558b957.jpg 500w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s540x810/b00c13011ea513af60a1badb2b626f705a67c5cf.jpg 540w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s640x960/506b2fa6d82c907dd5fd192d83ac123760a385e7.jpg 640w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s1280x1920/bf34a8dd8bcef1fb8b38511ffe4424c28f5be02f.jpg 1280w, ac9a7eae6946eae88e959d9de87418dc/0429609e1ed23416-20/s2048x3072/43fc0f1f181ea3ece23d0dd3e8fabd19e9ed6629.jpg 1447w",
-    "date": "2024-09-02 19:26:47"
+    "date": "2024-09-02 19:26:47",
+    "artist_url": "https://tumblr.com/trecciolinoooooo"
   },
   {
     "id": "760547686035456000",
@@ -4854,9 +4881,15 @@ const MIKUS = [
     "artist": "noxious-fennec",
     "source": "tumblr",
     "name": "Tunisia",
+    "country": "TN",
+    "coords": [
+      9,
+      34
+    ],
     "thumb": "ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s75x75_c1/fa208634b54bc4f97d8a0e6ddd06a8cbe459407d.png",
     "srcset": "ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s100x200/2177e6996bbec11b7a9033c45a0ccc114f8483d5.png 100w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s250x400/2c50785b1be7bac03257dc19b4ecfb8087ca6732.png 250w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s400x600/2cb5159c6872d8849680edb9325c9b727d82c944.png 400w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s500x750/212db0e1c22e9295a5e9cd5d28fdc3774b36e1aa.png 500w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s540x810/2b0097af14f4764a3c1190aa8299006f9700cde7.png 540w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s640x960/930200d270cba0c9f3ef0fc5be8a911d965bed7c.png 640w, ea36c8180cf30c361356372b70dc0bc1/b2d9764aca33fe19-ef/s1280x1920/d05a631544e3acdb2475487f75011c23aab110ae.png 874w",
-    "date": "2024-09-02 20:30:09"
+    "date": "2024-09-02 20:30:09",
+    "artist_url": "https://tumblr.com/noxious-fennec"
   },
   {
     "id": "760551338463625216",
