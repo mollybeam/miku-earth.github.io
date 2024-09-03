@@ -146,6 +146,14 @@ h2 {
   top: 0;
 }
 
+body:not(.alreadyanimated) header {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 4s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
 .miku .preview {
   display: inline;
   z-index: 10;
@@ -263,4 +271,25 @@ article p {
     opacity: 0;
     /* display: none; */
   }
+}
+
+/* map style credit */
+
+.maptiler {
+  width: 6em;
+  float: right;
+  position: absolute;
+  bottom: -1em;
+  right: 0.5em;
+}
+
+.maptiler2 {
+  position: fixed;
+  bottom: -25px;
+  left: 10px;
+  z-index: 999;
+}
+
+.maptiler2:hover {
+  border: none;
 }

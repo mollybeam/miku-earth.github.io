@@ -2,11 +2,10 @@ const do_animate = true;
 
 var map = new maplibregl.Map({
     container: 'map',
-    // ugh needlessly expensive
-    // style: "https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=7u4GIZgEyI3d1WRGQSI0",
-    style: 'static/mapstyle.json',
+    style: "https://api.maptiler.com/maps/04d81168-126c-4527-92a3-10840848932d/style.json?key=7u4GIZgEyI3d1WRGQSI0",
+    // style: 'static/mapstyle.json',
     hash: true,
-    center: [30, 30], // xy
+    center: [30, 30],
     zoom: 1.2,
     maxZoom: 6,
 });
@@ -15,17 +14,18 @@ const $space = () => document.createTextNode(" ");
 const $ = x => document.createElement(x);
 let get = i => document.getElementById("miku" + MIKUS[i].id);
 
-function attribute(map, text, url) {
-    let a = document.createElement(url ? 'a' : 'span')
-    a.innerText = ' ' + text
-    if (url) {
-        a.href = url
-        a.target = '_blank'
-    }
+function attribute(map, text, prepend) {
+    let span = document.createElement('span')
+    span.innerHTML = ' ' + text
     let attrib = map.getContainer()
         .querySelector('.maplibregl-ctrl-attrib-inner')
-    attrib.appendChild($space())
-    attrib.appendChild(a)
+    if (prepend) {
+        attrib.prepend($space())
+        attrib.prepend(span)
+    } else {
+        attrib.appendChild($space())
+        attrib.appendChild(span)
+    }
 }
 function shuffle(array) {
     // fisher-yates
@@ -39,8 +39,8 @@ function shuffle(array) {
 let showcase_i = 0;
 map.on('load', () => {
     document.getElementById('mapfallback').remove()
-
-    attribute(map, "© the respective artists")
+    attribute(map, "© respective artists")
+    attribute(map, "• collated by <a href='https://tumblr.com/ awnowimsad'>awnowimsad</a> & <a href='https://tumblr.com/mira-hildegard'>mira</a>")
     shuffle(MIKUS);
 
     // // // Zooming makes mikus slightly larger
