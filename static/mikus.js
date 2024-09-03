@@ -231,6 +231,9 @@ const MIKUS = [
     "date": "2024-08-26 16:59:46",
     "post_url": "https://tmblr.co/Z3fYVOgCELjIqm00",
     "name": "Prehispanic",
+    "tags": [
+      "historic"
+    ],
     "country": "MX",
     "coords": [
       -99.13,
@@ -348,9 +351,7 @@ const MIKUS = [
     "id": "760305091500752896",
     "post_url": "https://tmblr.co/Z3fYVOgD9NFJqi00",
     "artist": "handsometimr",
-    "loc": [
-      "china"
-    ],
+    "name": "China",
     "country": "CN",
     "thumb": "36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s75x75_c1/7eb2dbb9424a82bf66b2018e55cd69ccea2b8a10.png",
     "srcset": "36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s100x200/76ed536d2dc1767018aff19d2894bc9ba639f4cc.png 100w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s250x400/85945b5518256b9f6d4795d07b469659e85bcf01.png 250w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s400x600/3f286fd1fbafae862e2d5a578f90ea24569c5061.png 400w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s500x750/e96804a8b0c46fb5bce642ea592adb5fa4c18e46.png 500w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s540x810/8f46b2a0573cace26b3d9f6634980db97f98b998.png 540w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s640x960/a718b730109c4620c578cb990eeb447d23cff29b.png 640w, 36ebe830c69032476286f09406b63685/709aa3342e6fa2cb-60/s1280x1920/9554ffcd90daeada17bb9bee0fb650674ebf1a72.png 1000w",
@@ -844,6 +845,9 @@ const MIKUS = [
       108.858333,
       34.308333
     ],
+    "tags": [
+      "historic"
+    ],
     "thumb": "3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s75x75_c1/252d445358442021111ccf28da4f937197fe4112.png",
     "srcset": " 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s100x200/593565f67c3074943739fb38929049bac7e1a2fa.png 100w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s250x400/9de2a1d012e448043429a3a4656dd576821c63d2.png 250w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s400x600/9f71f14656d10ee8c4c7c8ffe95a9ab022730d9a.png 400w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s500x750/1b76b89aead2733bd998df8a14d61d1855715ee8.png 500w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s540x810/95096675ef80dd1d0912ba04af60dff48ebd335b.png 540w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s640x960/4e5a16a76ed84cb8164a4dc0f1987bdec1c505b5.png 640w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s1280x1920/71cf27ad3ab23f6d98f6cec59f13ad79b4ded3e9.png 1280w, 3a48aafb9376de3a1773537276baf11c/580cbd4e1ae3f603-7b/s2048x3072/4075ca852a2d51ae632a36520d6d8f279f7b04c6.png 1423w"
   },
@@ -943,7 +947,9 @@ const MIKUS = [
     "name": "Aboriginal",
     "wikipedia": "Aboriginal Australians",
     "country": "AU",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       122,
       -27
@@ -1168,7 +1174,9 @@ const MIKUS = [
     "date": "2024-08-28 19:15:08",
     "name": "Ojibwe",
     "country": "US",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       -90.78,
       46.78
@@ -1267,7 +1275,9 @@ const MIKUS = [
     "date": "2024-08-28 21:07:24",
     "name": "We Wai Kai Nation",
     "country": "CA",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       -125.23,
       50.167
@@ -1503,7 +1513,9 @@ const MIKUS = [
     "loc": [
       "native american"
     ],
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "thumb": "7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s75x75_c1/29cc84af772c791e3d06eb6ab1b1df8670030817.jpg",
     "srcset": "7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s100x200/7d59bca558743b230b45c4eb3df2f30c73452fd9.jpg 100w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s250x400/1d4e63ab652597d6d30d814171552366ac854666.jpg 250w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s400x600/d3ef25904410e7068a3f2d14037968a88b2f0d37.jpg 400w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s500x750/ffdafa22511fde1b57fff09e0fff01c9f3057c0f.jpg 500w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s540x810/78fe022e41cbc1d1bbc9832463fd37bb45e43859.jpg 540w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s640x960/db36da00db6bdb3dd6c8d48964591e5f77559a3d.jpg 640w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s1280x1920/34c2428af515f2416bf787cd32c3f82d896f0c17.jpg 1280w, 7623b50ca8cc4c99e8c64bb882bb9899/c2f65a0024dc1f44-8c/s2048x3072/ca0fa438b2afd7c363cada02e3632669ac9532dc.jpg 2048w",
     "date": "2024-08-28 22:56:18"
@@ -1577,7 +1589,9 @@ const MIKUS = [
     "name": "Aboriginal",
     "wikipedia": "Aboriginal Australians",
     "country": "AU",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       138,
       -32
@@ -2695,10 +2709,11 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgC_7eOmW00",
     "artist": "lordstumpy",
     "artist_url": "https://tumblr.com/lordstumpy",
-    "loc": [
-      "m\u0101ori"
-    ],
+    "name": "M\u0101ori",
     "country": "NZ",
+    "tags": [
+      "indigenous"
+    ],
     "thumb": "c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s75x75_c1/6790a7071989fefc0db3cbcf2a1c6b0e77b509f2.png",
     "srcset": " c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s100x200/30f8ca4dfec0ee9eafab061a60cc6426ea7023d6.png 100w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s250x400/8f0d7423344805e4cd1074f40bc61696e7791156.png 250w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s400x600/f3c5f293726454d49c83e0b5fe64830cb64feb13.png 400w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s500x750/e6c4e00e6d4dda3101ca12eea49981da2b6f32a0.png 500w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s540x810/7d8a9dcca36fda8410e27459204c029483b50d9e.png 540w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s640x960/88eeefd21ddcf57dea01aec6c6d55ea8290979d9.png 640w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s1280x1920/e0165886a142be98e59dc5756472c8887c4a2856.png 1280w, c745020062e7094e6ec064a2a1f8a197/ce24b68fe1543724-01/s2048x3072/f43c103279cee809882e5e058703dc9d3f69e1c5.png 1813w",
     "date": "2024-08-30 10:14:27"
@@ -3159,7 +3174,9 @@ const MIKUS = [
     "artist": "owldart",
     "name": "Tlingit",
     "country": "US",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       -135.67,
       57.17
@@ -3262,7 +3279,9 @@ const MIKUS = [
     "artist": "wawa_ryuq",
     "name": "Ryukyu Kingdom",
     "country": "JP",
-    "historical": true,
+    "tags": [
+      "historic"
+    ],
     "coords": [
       127.68,
       26.2
@@ -3321,7 +3340,9 @@ const MIKUS = [
     "name": "Ainu",
     "wikipedia": "Ainu people",
     "country": "JP",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       142,
       44
@@ -3500,7 +3521,9 @@ const MIKUS = [
     "artist": "nataref",
     "name": "Mi'kmaw",
     "country": "CA",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "coords": [
       -60.7,
       45.7
@@ -3870,7 +3893,9 @@ const MIKUS = [
     "post_url": "https://tmblr.co/Z3fYVOgDSiuTuy00",
     "artist": "thetyger",
     "name": "Mohican",
-    "indigenous": true,
+    "tags": [
+      "indigenous"
+    ],
     "country": "US",
     "wikipedia": "Mohicans",
     "coords": [
@@ -4217,7 +4242,10 @@ const MIKUS = [
     "source": "tumblr",
     "loc": [
       "tang dynasty",
-      "(historical)"
+      "(historic)"
+    ],
+    "tags": [
+      "historic"
     ],
     "country": "CN",
     "thumb": "dc012e28bbd59acf074454e12bfc9664/d56397a7e29bb107-fb/s75x75_c1/30476d3b276e89f5e6b0a2ee0aad8de1b545f5fb.png",
