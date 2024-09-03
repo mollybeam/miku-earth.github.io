@@ -96,7 +96,7 @@ h2 {
   left: 10%;
   height: 60%;
   opacity: 0;
-  animation: fade-in 6s 1s forwards;
+  animation: fade-in 6s 3s forwards;
 }
 
 /* Miku element */
