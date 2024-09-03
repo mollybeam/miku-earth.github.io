@@ -1,4 +1,11 @@
-const do_animate = true;
+let do_animate = true;
+const ANIMATION_TOTAL_SECONDS = 8;
+
+if (document.cookie) {
+    do_animate = false;
+    document.body.classList.add('alreadyanimated');
+}
+document.cookie = "animation=seen"
 
 var map = new maplibregl.Map({
     container: 'map',
@@ -58,7 +65,6 @@ map.on('load', () => {
     map.on('zoom', setSize)
 
     // anim setup
-    const ANIMATION_TOTAL_SECONDS = 5;
     const ANIM_T = ANIMATION_TOTAL_SECONDS / MIKUS.length;
 
     let N = 0
